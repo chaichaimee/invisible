@@ -1,202 +1,25 @@
+# Spanish translation for invisible add-on.
+# Copyright (C) 2025 Your Name
+# This file is distributed under the same license as the invisible add-on.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: invisible\n"
-"Language: es\n"
-"Last-Translator: \n"
+"Project-Id-Version: invisible 2025.13\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-04 13:09+0700\n"
+"PO-Revision-Date: 2025-12-04 20:32+0700\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: __init__.py:210
-msgid "Regex"
-msgstr "Expresión regular"
+#: globalPlugins/invisible/__init__.py:20
+msgid "Invisible add-on is active"
+msgstr "El complemento Invisible está activo"
 
-#: __init__.py:298
-msgid "Invisible Settings"
-msgstr "Ajustes de Invisible"
-
-#: __init__.py:318
-msgid "Site List"
-msgstr "Lista de sitios"
-
-#: __init__.py:324
-msgid "Site Settings:"
-msgstr "Ajustes del sitio:"
-
-#: __init__.py:329
-msgid "Display name:"
-msgstr "Nombre visible:"
-
-#: __init__.py:339
-msgid "URL:"
-msgstr "URL:"
-
-#: __init__.py:349
-msgid "Apply to:"
-msgstr "Aplicar a:"
-
-#: __init__.py:351
-msgid "Single page only"
-msgstr "Solo esta página"
-
-#: __init__.py:351
-msgid "Whole website (domain)"
-msgstr "Todo el sitio web (dominio)"
-
-#: __init__.py:361
-msgid "Add New Site"
-msgstr "Añadir nuevo sitio"
-
-#: __init__.py:362
-msgid "Update Site"
-msgstr "Actualizar sitio"
-
-#: __init__.py:363
-msgid "Remove Site"
-msgstr "Eliminar sitio"
-
-#: __init__.py:375
-msgid "Entries"
-msgstr "Entradas"
-
-#: __init__.py:385
-msgid "Pattern:"
-msgstr "Patrón:"
-
-#: __init__.py:395
-msgid "Replacement:"
-msgstr "Reemplazo:"
-
-#: __init__.py:402
-msgid "Use as regular expression"
-msgstr "Usar como expresión regular"
-
-#: __init__.py:408
-msgid "&Add"
-msgstr "&Añadir"
-
-#: __init__.py:409
-msgid "&Edit"
-msgstr "&Editar"
-
-#: __init__.py:410
-msgid "&Remove"
-msgstr "&Eliminar"
-
-#: __init__.py:418
-msgid "&OK"
-msgstr "&Aceptar"
-
-#: __init__.py:419
-msgid "&Close"
-msgstr "&Cerrar"
-
-#: __init__.py:489
-msgid "&Update"
-msgstr "&Actualizar"
-
-#: __init__.py:565
-msgid "Enter a name for the new site:"
-msgstr "Introduce un nombre para el nuevo sitio:"
-
-#: __init__.py:582
-msgid "Site added: {}"
-msgstr "Sitio añadido: {}"
-
-#: __init__.py:585
-msgid "Failed to add site"
-msgstr "No se pudo añadir el sitio"
-
-#: __init__.py:601
-msgid "Display name cannot be empty"
-msgstr "El nombre visible no puede estar vacío"
-
-#: __init__.py:606
-msgid "URL cannot be empty"
-msgstr "La URL no puede estar vacía"
-
-#: __init__.py:616
-msgid "Site settings updated"
-msgstr "Ajustes del sitio actualizados"
-
-#: __init__.py:619
-msgid "Failed to update site settings. Display name might already exist."
-msgstr "No se pudieron actualizar los ajustes. Puede que el nombre visible ya exista."
-
-#: __init__.py:639
-msgid "Are you sure you want to remove '{}'?"
-msgstr "¿Estás seguro de que quieres eliminar «{}»?"
-
-#: __init__.py:641
-msgid "Confirm Removal"
-msgstr "Confirmar eliminación"
-
-#: __init__.py:659
-msgid "Site removed: {}"
-msgstr "Sitio eliminado: {}"
-
-#: __init__.py:662
-msgid "Failed to remove site"
-msgstr "No se pudo eliminar el sitio"
-
-#: __init__.py:696
-msgid "Please enter a pattern"
-msgstr "Por favor, introduce un patrón"
-
-#: __init__.py:701
-msgid "No site selected"
-msgstr "No hay ningún sitio seleccionado"
-
-#: __init__.py:710
-msgid "Invalid Regular Expression syntax"
-msgstr "Sintaxis de expresión regular no válida"
-
-#: __init__.py:729
-msgid "Word update cancelled (no change)"
-msgstr "Actualización cancelada (sin cambios)"
-
-#: __init__.py:738
-msgid "This pattern/regex combination is already in the list"
-msgstr "Esta combinación de patrón/expresión regular ya está en la lista"
-
-#: __init__.py:750
-msgid "Entry updated: {}"
-msgstr "Entrada actualizada: {}"
-
-#: __init__.py:753
-msgid "Failed to update entry"
-msgstr "No se pudo actualizar la entrada"
-
-#: __init__.py:771
-msgid "Entry added: {}"
-msgstr "Entrada añadida: {}"
-
-#: __init__.py:774
-msgid "Failed to add entry"
-msgstr "No se pudo añadir la entrada"
-
-#: __init__.py:799
-msgid "Editing entry: {}"
-msgstr "Editando entrada: {}"
-
-#: __init__.py:823
-msgid "Are you sure you want to remove '{} '?"
-msgstr "¿Estás seguro de que quieres eliminar «{}»?"
-
-#: __init__.py:842
-msgid "Entry removed: {}"
-msgstr "Entrada eliminada: {}"
-
-#: __init__.py:845
-msgid "Failed to remove entry"
-msgstr "No se pudo eliminar la entrada"
-
-#: __init__.py:909
-msgid "Invisible"
-msgstr "Invisible"
-
-#: __init__.py:935
-msgid "Open invisible settings"
-msgstr "Abrir ajustes de Invisible"
-
-#: __init__.py:947
-msgid "Cannot capture URL. Make sure you are in a browser."
-msgstr "No se pudo capturar la URL. Asegúrate de estar en un navegador."
+#: globalPlugins/invisible/__init__.py:25
+msgid "You pressed the secret gesture!"
+msgstr "¡Has pulsado el gesto secreto!"
