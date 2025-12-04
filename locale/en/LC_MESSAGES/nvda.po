@@ -1,0 +1,209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-04 12:00+0700\n"
+"PO-Revision-Date: 2025-12-04 13:39+0700\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.7\n"
+
+#: __init__.py:210
+msgid "Regex"
+msgstr "Regex"
+
+#: __init__.py:298
+msgid "Invisible Settings"
+msgstr "Invisible Settings"
+
+#: __init__.py:318
+msgid "Site List"
+msgstr "Site List"
+
+#: __init__.py:324
+msgid "Site Settings:"
+msgstr "Site Settings:"
+
+#: __init__.py:329
+msgid "Display name:"
+msgstr "Display name:"
+
+#: __init__.py:339
+msgid "URL:"
+msgstr "URL:"
+
+#: __init__.py:349
+msgid "Apply to:"
+msgstr "Apply to:"
+
+#: __init__.py:351
+msgid "Single page only"
+msgstr "Single page only"
+
+#: __init__.py:351
+msgid "Whole website (domain)"
+msgstr "Whole website (domain)"
+
+#: __init__.py:361
+msgid "Add New Site"
+msgstr "Add New Site"
+
+#: __init__.py:362
+msgid "Update Site"
+msgstr "Update Site"
+
+#: __init__.py:363
+msgid "Remove Site"
+msgstr "Remove Site"
+
+#: __init__.py:375
+msgid "Entries"
+msgstr "Entries"
+
+#: __init__.py:385
+msgid "Pattern:"
+msgstr "Pattern:"
+
+#: __init__.py:395
+msgid "Replacement:"
+msgstr "Replacement:"
+
+#: __init__.py:402
+msgid "Use as regular expression"
+msgstr "Use as regular expression"
+
+#: __init__.py:408
+msgid "&Add"
+msgstr "&Add"
+
+#: __init__.py:409
+msgid "&Edit"
+msgstr "&Edit"
+
+#: __init__.py:410
+msgid "&Remove"
+msgstr "&Remove"
+
+#: __init__.py:418
+msgid "&OK"
+msgstr "&OK"
+
+#: __init__.py:419
+msgid "&Close"
+msgstr "&Close"
+
+#: __init__.py:489
+msgid "&Update"
+msgstr "&Update"
+
+#: __init__.py:565
+msgid "Enter a name for the new site:"
+msgstr "Enter a name for the new site:"
+
+#: __init__.py:582
+msgid "Site added: {}"
+msgstr "Site added: {}"
+
+#: __init__.py:585
+msgid "Failed to add site"
+msgstr "Failed to add site"
+
+#: __init__.py:601
+msgid "Display name cannot be empty"
+msgstr "Display name cannot be empty"
+
+#: __init__.py:606
+msgid "URL cannot be empty"
+msgstr "URL cannot be empty"
+
+#: __init__.py:616
+msgid "Site settings updated"
+msgstr "Site settings updated"
+
+#: __init__.py:619
+msgid "Failed to update site settings. Display name might already exist."
+msgstr "Failed to update site settings. Display name might already exist."
+
+#: __init__.py:639
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Are you sure you want to remove '{}'?"
+
+#: __init__.py:641
+msgid "Confirm Removal"
+msgstr "Confirm Removal"
+
+#: __init__.py:659
+msgid "Site removed: {}"
+msgstr "Site removed: {}"
+
+#: __init__.py:662
+msgid "Failed to remove site"
+msgstr "Failed to remove site"
+
+#: __init__.py:696
+msgid "Please enter a pattern"
+msgstr "Please enter a pattern"
+
+#: __init__.py:701
+msgid "No site selected"
+msgstr "No site selected"
+
+#: __init__.py:710
+msgid "Invalid Regular Expression syntax"
+msgstr "Invalid Regular Expression syntax"
+
+#: __init__.py:729
+msgid "Word update cancelled (no change)"
+msgstr "Word update cancelled (no change)"
+
+#: __init__.py:738
+msgid "This pattern/regex combination is already in the list"
+msgstr "This pattern/regex combination is already in the list"
+
+#: __init__.py:750
+msgid "Entry updated: {}"
+msgstr "Entry updated: {}"
+
+#: __init__.py:753
+msgid "Failed to update entry"
+msgstr "Failed to update entry"
+
+#: __init__.py:771
+msgid "Entry added: {}"
+msgstr "Entry added: {}"
+
+#: __init__.py:774
+msgid "Failed to add entry"
+msgstr "Failed to add entry"
+
+#: __init__.py:799
+msgid "Editing entry: {}"
+msgstr "Editing entry: {}"
+
+#: __init__.py:823
+msgid "Are you sure you want to remove '{} '?"
+msgstr "Are you sure you want to remove '{}'?"
+
+#: __init__.py:842
+msgid "Entry removed: {}"
+msgstr "Entry removed: {}"
+
+#: __init__.py:845
+msgid "Failed to remove entry"
+msgstr "Failed to remove entry"
+
+#: __init__.py:909
+msgid "Invisible"
+msgstr "Invisible"
+
+#: __init__.py:935
+msgid "Open invisible settings"
+msgstr "Open invisible settings"
+
+#: __init__.py:947
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Cannot capture URL. Make sure you are in a browser."

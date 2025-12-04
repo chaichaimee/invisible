@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible\n"
+"Language: ru\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: __init__.py:210
+msgid "Regex"
+msgstr "Регулярное выражение"
+
+#: __init__.py:298
+msgid "Invisible Settings"
+msgstr "Настройки Invisible"
+
+#: __init__.py:318
+msgid "Site List"
+msgstr "Список сайтов"
+
+#: __init__.py:324
+msgid "Site Settings:"
+msgstr "Настройки сайта:"
+
+#: __init__.py:329
+msgid "Display name:"
+msgstr "Отображаемое имя:"
+
+#: __init__.py:339
+msgid "URL:"
+msgstr "URL:"
+
+#: __init__.py:349
+msgid "Apply to:"
+msgstr "Применить к:"
+
+#: __init__.py:351
+msgid "Single page only"
+msgstr "Только эта страница"
+
+#: __init__.py:351
+msgid "Whole website (domain)"
+msgstr "Весь сайт (домен)"
+
+#: __init__.py:361
+msgid "Add New Site"
+msgstr "Добавить новый сайт"
+
+#: __init__.py:362
+msgid "Update Site"
+msgstr "Обновить сайт"
+
+#: __init__.py:363
+msgid "Remove Site"
+msgstr "Удалить сайт"
+
+#: __init__.py:375
+msgid "Entries"
+msgstr "Записи"
+
+#: __init__.py:385
+msgid "Pattern:"
+msgstr "Шаблон:"
+
+#: __init__.py:395
+msgid "Replacement:"
+msgstr "Замена:"
+
+#: __init__.py:402
+msgid "Use as regular expression"
+msgstr "Использовать как регулярное выражение"
+
+#: __init__.py:408
+msgid "&Add"
+msgstr "&Добавить"
+
+#: __init__.py:409
+msgid "&Edit"
+msgstr "&Изменить"
+
+#: __init__.py:410
+msgid "&Remove"
+msgstr "&Удалить"
+
+#: __init__.py:418
+msgid "&OK"
+msgstr "&ОК"
+
+#: __init__.py:419
+msgid "&Close"
+msgstr "&Закрыть"
+
+#: __init__.py:489
+msgid "&Update"
+msgstr "&Обновить"
+
+#: __init__.py:565
+msgid "Enter a name for the new site:"
+msgstr "Введите название для нового сайта:"
+
+#: __init__.py:582
+msgid "Site added: {}"
+msgstr "Сайт добавлен: {}"
+
+#: __init__.py:585
+msgid "Failed to add site"
+msgstr "Не удалось добавить сайт"
+
+#: __init__.py:601
+msgid "Display name cannot be empty"
+msgstr "Отображаемое имя не может быть пустым"
+
+#: __init__.py:606
+msgid "URL cannot be empty"
+msgstr "URL не может быть пустым"
+
+#: __init__.py:616
+msgid "Site settings updated"
+msgstr "Настройки сайта обновлены"
+
+#: __init__.py:619
+msgid "Failed to update site settings. Display name might already exist."
+msgstr "Не удалось обновить настройки. Такое отображаемое имя уже существует."
+
+#: __init__.py:639
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Вы уверены, что хотите удалить «{}»?"
+
+#: __init__.py:641
+msgid "Confirm Removal"
+msgstr "Подтвердите удаление"
+
+#: __init__.py:659
+msgid "Site removed: {}"
+msgstr "Сайт удалён: {}"
+
+#: __init__.py:662
+msgid "Failed to remove site"
+msgstr "Не удалось удалить сайт"
+
+#: __init__.py:696
+msgid "Please enter a pattern"
+msgstr "Пожалуйста, введите шаблон"
+
+#: __init__.py:701
+msgid "No site selected"
+msgstr "Сайт не выбран"
+
+#: __init__.py:710
+msgid "Invalid Regular Expression syntax"
+msgstr "Неверный синтаксис регулярного выражения"
+
+#: __init__.py:729
+msgid "Word update cancelled (no change)"
+msgstr "Обновление отменено (нет изменений)"
+
+#: __init__.py:738
+msgid "This pattern/regex combination is already in the list"
+msgstr "Такая комбинация шаблон/регулярное выражение уже существует"
+
+#: __init__.py:750
+msgid "Entry updated: {}"
+msgstr "Запись обновлена: {}"
+
+#: __init__.py:753
+msgid "Failed to update entry"
+msgstr "Не удалось обновить запись"
+
+#: __init__.py:771
+msgid "Entry added: {}"
+msgstr "Запись добавлена: {}"
+
+#: __init__.py:774
+msgid "Failed to add entry"
+msgstr "Не удалось добавить запись"
+
+#: __init__.py:799
+msgid "Editing entry: {}"
+msgstr "Редактирование записи: {}"
+
+#: __init__.py:823
+msgid "Are you sure you want to remove '{} '?"
+msgstr "Вы уверены, что хотите удалить «{}»?"
+
+#: __init__.py:842
+msgid "Entry removed: {}"
+msgstr "Запись удалена: {}"
+
+#: __init__.py:845
+msgid "Failed to remove entry"
+msgstr "Не удалось удалить запись"
+
+#: __init__.py:909
+msgid "Invisible"
+msgstr "Invisible"
+
+#: __init__.py:935
+msgid "Open invisible settings"
+msgstr "Открыть настройки Invisible"
+
+#: __init__.py:947
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Не удалось получить URL. Убедитесь, что вы находитесь в браузере."
