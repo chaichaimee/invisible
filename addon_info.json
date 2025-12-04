@@ -1,0 +1,10 @@
+﻿{
+  "addon_name": "invisible",
+  "addon_description": "Hide or swap any words on websites — skip the repetitive, cut the clutter, keep only what matters",
+  "addon_version": "2025.13",
+  "addon_author": "chaichaimee",
+  "addon_url": "https://github.com/chaichaimee/invisible",
+  "addon_download_url": "https://github.com/chaichaimee/invisible/releases/download/v2025.13/invisible-v2025.13.nvda-addon",
+  "addon_min_nvda_version": "2022.4"
+}
+
