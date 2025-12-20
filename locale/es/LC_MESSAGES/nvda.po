@@ -1,25 +1,173 @@
-# Spanish translation for invisible add-on.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2025 Your Name
 # This file is distributed under the same license as the invisible add-on.
+# Last-Translator: Anonymous <anonymous@example.com>
+# Language-Team: Spanish
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: invisible 2025.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-04 13:09+0700\n"
-"PO-Revision-Date: 2025-12-04 20:32+0700\n"
-"Last-Translator: Automatically generated\n"
+"POT-Creation-Date: 2025-12-20 13:09+0700\n"
+"PO-Revision-Date: 2025-12-20 20:07+0700\n"
+"Last-Translator: Anonymous <anonymous@example.com>\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
 
-#: globalPlugins/invisible/__init__.py:20
-msgid "Invisible add-on is active"
-msgstr "El complemento Invisible está activo"
+msgid "Invisible Settings"
+msgstr "Configuración invisible"
 
-#: globalPlugins/invisible/__init__.py:25
-msgid "You pressed the secret gesture!"
-msgstr "¡Has pulsado el gesto secreto!"
+msgid "Site List"
+msgstr "Lista de sitios"
+
+msgid "Site Settings:"
+msgstr "Configuración del sitio:"
+
+msgid "Display name:"
+msgstr "Nombre para mostrar:"
+
+msgid "URL:"
+msgstr "URL:"
+
+msgid "Apply to:"
+msgstr "Aplicar a:"
+
+msgid "Single page only"
+msgstr "Solo página única"
+
+msgid "Whole website (domain)"
+msgstr "Todo el sitio web (dominio)"
+
+msgid "Add New Site"
+msgstr "Agregar nuevo sitio"
+
+msgid "Entries"
+msgstr "Entradas"
+
+msgid "Pattern:"
+msgstr "Patrón:"
+
+msgid "Replacement:"
+msgstr "Reemplazo:"
+
+msgid "Use as regular expression"
+msgstr "Usar como expresión regular"
+
+msgid "&Add"
+msgstr "&Agregar"
+
+msgid "&Edit"
+msgstr "&Editar"
+
+msgid "&Remove"
+msgstr "&Eliminar"
+
+msgid "&Cancel"
+msgstr "&Cancelar"
+
+msgid "&OK"
+msgstr "&OK"
+
+msgid "&Close"
+msgstr "&Cerrar"
+
+msgid "Regex"
+msgstr "Regex"
+
+msgid "Enter a name for the new site:"
+msgstr "Ingrese un nombre para el nuevo sitio:"
+
+msgid "&Edit Site"
+msgstr "&Editar sitio"
+
+msgid "&Remove Site"
+msgstr "&Eliminar sitio"
+
+msgid "&Edit Word"
+msgstr "&Editar palabra"
+
+msgid "&Remove Word"
+msgstr "&Eliminar palabra"
+
+msgid "Site added: {}"
+msgstr "Sitio agregado: {}"
+
+msgid "Failed to add site"
+msgstr "Error al agregar sitio"
+
+msgid "Display name cannot be empty"
+msgstr "El nombre para mostrar no puede estar vacío"
+
+msgid "URL cannot be empty"
+msgstr "La URL no puede estar vacía"
+
+msgid "Site settings updated"
+msgstr "Configuración del sitio actualizada"
+
+msgid "Failed to update site settings. Display name might already exist."
+msgstr "Error al actualizar la configuración del sitio. El nombre para mostrar ya podría existir."
+
+msgid "Are you sure you want to remove '{}'?"
+msgstr "¿Está seguro de que desea eliminar '{}'?"
+
+msgid "Confirm Removal"
+msgstr "Confirmar eliminación"
+
+msgid "Site removed: {}"
+msgstr "Sitio eliminado: {}"
+
+msgid "Failed to remove site"
+msgstr "Error al eliminar sitio"
+
+msgid "Please enter a pattern"
+msgstr "Por favor ingrese un patrón"
+
+msgid "No site selected"
+msgstr "No se ha seleccionado ningún sitio"
+
+msgid "Invalid Regular Expression syntax"
+msgstr "Sintaxis de expresión regular no válida"
+
+msgid "This pattern/regex combination is already in the list"
+msgstr "Esta combinación patrón/regex ya está en la lista"
+
+msgid "Entry updated successfully"
+msgstr "Entrada actualizada exitosamente"
+
+msgid "Failed to update entry"
+msgstr "Error al actualizar la entrada"
+
+msgid "Entry added successfully"
+msgstr "Entrada agregada exitosamente"
+
+msgid "Failed to add entry"
+msgstr "Error al agregar entrada"
+
+msgid "Editing entry: {}"
+msgstr "Editando entrada: {}"
+
+msgid "Edit cancelled"
+msgstr "Edición cancelada"
+
+msgid "Entry removed: {}"
+msgstr "Entrada eliminada: {}"
+
+msgid "Failed to remove entry"
+msgstr "Error al eliminar entrada"
+
+msgid "Invisible"
+msgstr "Invisible"
+
+msgid "Open invisible settings"
+msgstr "Abrir configuración invisible"
+
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "No se puede capturar la URL. Asegúrese de estar en un navegador."
+
+msgid "&Update"
+msgstr "&Actualizar"

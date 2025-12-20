@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: invisible 2025.13\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-04 13:09+0700\n"
-"PO-Revision-Date: 2025-12-04 20:07+0700\n"
+"POT-Creation-Date: 2025-12-20 13:09+0700\n"
+"PO-Revision-Date: 2025-12-20 09:36+0700\n"
 "Last-Translator: Anonymous <anonymous@example.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -18,3 +18,156 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.7\n"
+
+msgid "Invisible Settings"
+msgstr "Invisible Settings"
+
+msgid "Site List"
+msgstr "Site List"
+
+msgid "Site Settings:"
+msgstr "Site Settings:"
+
+msgid "Display name:"
+msgstr "Display name:"
+
+msgid "URL:"
+msgstr "URL:"
+
+msgid "Apply to:"
+msgstr "Apply to:"
+
+msgid "Single page only"
+msgstr "Single page only"
+
+msgid "Whole website (domain)"
+msgstr "Whole website (domain)"
+
+msgid "Add New Site"
+msgstr "Add New Site"
+
+msgid "Entries"
+msgstr "Entries"
+
+msgid "Pattern:"
+msgstr "Pattern:"
+
+msgid "Replacement:"
+msgstr "Replacement:"
+
+msgid "Use as regular expression"
+msgstr "Use as regular expression"
+
+msgid "&Add"
+msgstr "&Add"
+
+msgid "&Edit"
+msgstr "&Edit"
+
+msgid "&Remove"
+msgstr "&Remove"
+
+msgid "&Cancel"
+msgstr "&Cancel"
+
+msgid "&OK"
+msgstr "&OK"
+
+msgid "&Close"
+msgstr "&Close"
+
+msgid "Regex"
+msgstr "Regex"
+
+msgid "Enter a name for the new site:"
+msgstr "Enter a name for the new site:"
+
+msgid "&Edit Site"
+msgstr "&Edit Site"
+
+msgid "&Remove Site"
+msgstr "&Remove Site"
+
+msgid "&Edit Word"
+msgstr "&Edit Word"
+
+msgid "&Remove Word"
+msgstr "&Remove Word"
+
+msgid "Site added: {}"
+msgstr "Site added: {}"
+
+msgid "Failed to add site"
+msgstr "Failed to add site"
+
+msgid "Display name cannot be empty"
+msgstr "Display name cannot be empty"
+
+msgid "URL cannot be empty"
+msgstr "URL cannot be empty"
+
+msgid "Site settings updated"
+msgstr "Site settings updated"
+
+msgid "Failed to update site settings. Display name might already exist."
+msgstr "Failed to update site settings. Display name might already exist."
+
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Are you sure you want to remove '{}'?"
+
+msgid "Confirm Removal"
+msgstr "Confirm Removal"
+
+msgid "Site removed: {}"
+msgstr "Site removed: {}"
+
+msgid "Failed to remove site"
+msgstr "Failed to remove site"
+
+msgid "Please enter a pattern"
+msgstr "Please enter a pattern"
+
+msgid "No site selected"
+msgstr "No site selected"
+
+msgid "Invalid Regular Expression syntax"
+msgstr "Invalid Regular Expression syntax"
+
+msgid "This pattern/regex combination is already in the list"
+msgstr "This pattern/regex combination is already in the list"
+
+msgid "Entry updated successfully"
+msgstr "Entry updated successfully"
+
+msgid "Failed to update entry"
+msgstr "Failed to update entry"
+
+msgid "Entry added successfully"
+msgstr "Entry added successfully"
+
+msgid "Failed to add entry"
+msgstr "Failed to add entry"
+
+msgid "Editing entry: {}"
+msgstr "Editing entry: {}"
+
+msgid "Edit cancelled"
+msgstr "Edit cancelled"
+
+msgid "Entry removed: {}"
+msgstr "Entry removed: {}"
+
+msgid "Failed to remove entry"
+msgstr "Failed to remove entry"
+
+msgid "Invisible"
+msgstr "Invisible"
+
+msgid "Open invisible settings"
+msgstr "Open invisible settings"
+
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Cannot capture URL. Make sure you are in a browser."
+
+msgid "&Update"
+msgstr "&Update"
