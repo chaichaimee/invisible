@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-13 13:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anonymous <anonymous@example.com>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: NVDA DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Добавить"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "От&мена"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Закрыть"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Изменить"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&Изменить сайт"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&Изменить слово"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Импортировать из файла..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Удалить"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&Удалить сайт"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&Удалить слово"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Сохранить"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Обновить"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Добавить новый сайт"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Применить к:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Вы уверены, что хотите удалить «{}»?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Не удалось захватить URL. Убедитесь, что вы находитесь в браузере."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Подтверждение импорта"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Подтверждение удаления"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Не удалось прочитать файл: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Отображаемое имя не может быть пустым."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Отображаемое имя:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Изменить сайт"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Редактирование отменено"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Редактирование записи: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Записи"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Запись успешно добавлена"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Запись удалена: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Запись успешно обновлена"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Ошибка"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Не удалось добавить сайт. Возможно, он уже существует."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Не удалось удалить запись"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Не удалось удалить сайт"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Не удалось сохранить конфигурацию (ошибка доступа или диска)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Не удалось обновить сайт. Отображаемое имя может уже существовать."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Импорт завершен: добавлено {}, пропущено {}."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Импортировать {} слов(а) в текущий сайт «{}»?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Информация"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Недопустимое регулярное выражение: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Настройки Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Сайт не выбран"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "В файле не найдено корректных записей слов."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Открыть настройки Invisible (одно нажатие) или добавить сайт (двойное нажатие)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Исходная запись не найдена"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Шаблон:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Пожалуйста, введите шаблон"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Пожалуйста, сначала выберите сайт."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Регулярное выражение (сопоставление URL с начала)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Замена:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Выберите JSON-файл для импорта"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Только одна страница"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Список сайтов"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Сайт не найден"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Сайт удален: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Выбранный файл не является корректной конфигурацией Invisible."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Такая комбинация шаблона/выражения уже существует"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL не может быть пустым."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Непредвиденная ошибка: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Использовать регулярное выражение"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Весь сайт (домен)"

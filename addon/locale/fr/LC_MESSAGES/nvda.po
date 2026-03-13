@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-13 13:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Anonymous <anonymous@example.com>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: NVDA DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Ajouter"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Annuler"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Fermer"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Modifier"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&Modifier le site"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&Modifier le mot"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Importer depuis un fichier..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Supprimer"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&Supprimer le site"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&Supprimer le mot"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Enregistrer"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Mettre à jour"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Ajouter un nouveau site"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Appliquer à :"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Voulez-vous vraiment supprimer '{}' ?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Impossible de capturer l'URL. Assurez-vous d'être dans un navigateur."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Confirmer l'importation"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Confirmer la suppression"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Impossible de lire le fichier : {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Le nom d'affichage ne peut pas être vide."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Nom d'affichage :"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Modifier le site"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Modification annulée"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Modification de l'entrée : {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Entrées"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Entrée ajoutée avec succès"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Entrée supprimée : {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Entrée mise à jour avec succès"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Erreur"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Échec de l'ajout du site. Il existe peut-être déjà."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Échec de la suppression de l'entrée"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Échec de la suppression du site"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Échec de l'enregistrement de la configuration (erreur de permission ou de disque)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Échec de la mise à jour du site. Le nom d'affichage existe peut-être déjà."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Importation terminée : {} ajoutés, {} ignorés."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Importer {} mot(s) dans le site actuel '{}' ?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Information"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Expression régulière invalide : {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Paramètres de Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Aucun site sélectionné"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Aucune entrée de mot valide trouvée dans le fichier."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Ouvrir les paramètres Invisible (un appui) ou ajouter un nouveau site (double appui)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Entrée originale introuvable"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Motif :"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Veuillez entrer un motif"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Veuillez d'abord sélectionner un site."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Expression régulière (correspondance URL depuis le début)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Remplacement :"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Sélectionner un fichier JSON à importer"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Page unique seulement"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Liste des sites"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Site introuvable"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Site supprimé : {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Le fichier sélectionné ne semble pas être une configuration de site Invisible valide."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Cette combinaison motif/regex existe déjà"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "L'URL ne peut pas être vide."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL :"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Erreur inattendue : {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Utiliser comme expression régulière"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Site web complet (domaine)"
