@@ -1,75 +1,86 @@
+<div align="center">
+  <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_standard_transparent.png" alt="NVDA Logo" width="220">
+</div>
+
 # Invisible
 
-**Hide or swap any words on websites � skip the repetitive, cut the clutter, keep only what matters**
+*Silence the clutter. Shape the voice. Own your browsing experience.*
 
-![NVDA Add-on](https://img.shields.io/badge/NVDA-Add--on-blue?logo=nvaccess)
-![License](https://img.shields.io/github/license/chaichaimee/invisible)
-![Version](https://img.shields.io/github/v/release/chaichaimee/invisible?label=latest)
-
-**Author:** chai chaimee  
-**Repository:** https://github.com/chaichaimee/invisible
+**Author:** Chai Chaimee  
+**Repository:** [github.com/chaichaimee/invisible](https://github.com/chaichaimee/invisible)
 
 ---
 
-Invisible lets you **silence** or **replace** any word, phrase, or pattern that NVDA would normally speak � without changing the web page itself.  
-Perfect for skipping ads, repetitive text, spoilers, profanity, or anything that distracts you.
+## Why settle for noisy web pages?
 
-### Features
+Modern websites are full of repetition, sponsorship labels, cookie notices, comment counts, sidebars, and auto-generated fluff that screen readers must read aloud — again and again.
 
-- Completely hide words (NVDA simply skips them)  
-- Replace words with custom text (e.g. "Advertisement"  "skip")  
-- Clean up profanity (e.g. "fuck"  "\*\*\*")  
-- Rules apply to a **single page** or an **entire domain**  
-- Full **regular expression (regex)** support for advanced users  
-- Each website has its own independent settings  
-- Settings saved as simple `.json` files � easy to share or backup
+**Invisible** gives you back control.
 
-### How to Use
+Decide exactly which words, phrases or patterns NVDA should skip entirely — or quietly replace with something shorter, cleaner, or completely silent.
 
-1. Go to the web page you want to clean up.  
-2. Press **`NVDA+Shift+W`**  the Invisible settings dialog opens.  
-3. The current URL is detected automatically.  
-4. Give the site a friendly name (e.g. `YouTube`, `News Site`).  
-5. Choose the scope:  
-   - **Single page only** � rules apply only to this exact URL  
-   - **Whole website (domain)** � rules apply to every page on the same domain  
-6. In the **Entries** section:  
-   - Type the text you want to affect in **Pattern**  
-   - (Optional) Type the replacement text in **Replacement**  
-     - Leave blank  the text is silenced completely  
-   - Tick **"Use as regular expression"** only if you know regex  
+This is not just filtering. This is **personal audio curation** for the web.
+
+## Powerful yet elegantly simple
+
+- Hide text completely — NVDA acts as if it never existed
+- Replace annoying labels with short placeholders (“Sponsored · Advertisement” → “skip”)
+- Apply rules to one page, an entire domain, or complex URL patterns (regex)
+- Full regular expression support for surgical precision
+- Instant effect — no page reload needed
+- Context-sensitive interface: double-tap gesture opens “Add Site” with current URL pre-filled
+- Right-click + Delete key support for fast management
+- Portable per-site .json files — easy to backup or share
+
+## Get started in under 30 seconds
+
+1. Go to any page where NVDA reads something you want to silence or change.
+
+2. Press **NVDA + Shift + W**  
+   - Single tap → opens main management window  
+   - Double tap (quickly) → opens “Add New Site” dialog with current URL already filled in
+
+3. In the **Add Site** dialog:  
+   - Keep or edit the display name  
+   - Choose scope:  
+     - Single page only  
+     - Whole website (domain)  
+     - Regular expression (advanced URL matching)  
+   - Click **Save**
+
+4. Now you’re inside the site’s rule manager:  
+   - Type the pattern you want to target  
+   - Enter replacement text — or leave blank for complete silence  
+   - Tick “Use as regular expression” when needed  
    - Click **Add** (or **Update** when editing)  
-7. Click **OK** or **Close** � changes take effect immediately.
+   Changes apply instantly — go back to browsing and listen.
 
-### Examples
+You can return anytime with **NVDA+Shift+W** (single tap) to edit, add more rules, remove entries, or switch between sites.
 
-| Pattern                 | Replacement | Regex? | Result when NVDA reads                     |
-|-------------------------|-------------|--------|--------------------------------------------|
-| Advertisement           | (blank)     | No     | Skipped completely                         |
-| Sponsored               | skip        | No     | Says "skip" instead                        |
-| [AD]                    | (blank)     | No     | Removed                                    |
-| fuck                    | ***         | No     | Says "\*\*\*"                               |
-| `^\d+ comments?$`       | (blank)     | Yes    | Removes "5 comments", "42 comments", etc.  |
+## Real-world examples that save time every day
 
-### Where Settings Are Saved
+| Target Pattern              | Replacement   | Regex? | What you hear instead          |
+|-----------------------------|---------------|--------|--------------------------------|
+| Advertisement               | (blank)       | No     | — completely skipped —         |
+| Sponsored                   | skip          | No     | “skip”                         |
+| · [0-9,]+ comments?         | (blank)       | Yes    | — no comment counts —          |
+| Breaking News:              | News:         | No     | Shorter & cleaner              |
+| ^Cookie notice.*accept      | (blank)       | Yes    | Banner text silenced           |
 
-Each site has its own small `.json` file located in:  
-`%appdata%\nvda\invisible\`  
-(or your portable NVDA config folder)
+## Pro tips for power users
 
-You can copy these files to share your rules with friends or back them up easily.
+- Right-click any site or entry → context menu with Edit / Remove
+- Press **Delete** key on selected item for instant removal
+- Use literal longest-first matching → avoids partial word problems
+- Import rules from another .json file directly into any site
+- Regex mode supports replacement groups — very powerful for dynamic content
 
-### Keyboard Shortcut
+## Support the project
 
-**`NVDA+Shift+W`** � Open Invisible settings from any web page.
+If Invisible has improved your daily browsing experience, consider supporting its continued development.
 
-### Important Notes
-
-- Only affects **what NVDA speaks** � the actual web page remains unchanged.  
-- Works with **Firefox**, **Chrome**, **Edge**, and any browser supported by NVDA.
+[**Donate via GitHub Sponsors**](https://github.com/chaichaimee)
 
 ---
 
-**Enjoy a cleaner, quieter browsing experience!**
-
-?? Made for the NVDA community � free and open source.
+© 2026 Chai Chaimee · Invisible NVDA Add-on · Released under GNU GPL v2+
