@@ -1,86 +1,100 @@
-<div align="center">
-  <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_standard_transparent.png" alt="NVDA Logo" width="220">
-</div>
+<p align="center">
+  <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_standard_transparent.png" alt="Logo NVDA" width="220">
+</p>
 
 # Invisible
 
-*Faites taire le bruit. Façonnez la voix. Prenez le contrôle de votre navigation.*
+<p align="center"><i>Faites taire le superflu. Façonnez la voix. Maîtrisez votre expérience de navigation.</i></p>
 
-**Auteur :** Chai Chaimee  
-**Dépôt :** [github.com/chaichaimee/invisible](https://github.com/chaichaimee/invisible)
+<p align="center">
+  <strong>Auteur :</strong> Chai Chaimee<br>
+  <strong>Dépôt :</strong> <a href="https://github.com/chaichaimee/invisible">github.com/chaichaimee/invisible</a>
+</p>
 
 ---
 
-## Pourquoi se contenter de pages web bruyantes ?
+## Pourquoi s'accommoder de pages Web bruyantes ?
 
-Les sites web modernes regorgent de répétitions, mentions sponsorisées, bannières de cookies, compteurs de commentaires, barres latérales et contenu généré automatiquement que les lecteurs d'écran doivent lire à voix haute — encore et encore.
+Les sites Web modernes regorgent de répétitions, de mentions publicitaires, d'avis relatifs aux cookies, de compteurs de commentaires, de barres latérales et de contenus générés automatiquement que les lecteurs d'écran doivent lire à haute voix — encore et encore.
 
 **Invisible** vous redonne le contrôle.
 
-Décidez exactement quels mots, phrases ou motifs NVDA doit ignorer totalement — ou remplacer discrètement par quelque chose de plus court, plus propre ou totalement silencieux.
+Décidez exactement quels mots, phrases ou motifs NVDA doit ignorer complètement — ou remplacez-les discrètement par quelque chose de plus court, de plus propre ou par le silence absolu.
 
-Ce n'est pas seulement du filtrage. C'est une **curation audio personnelle** pour le web.
+<br><br>
 
-## Puissant mais élégamment simple
+Il ne s'agit pas seulement de filtrage. C'est une **curation audio personnelle** pour le Web.
 
-- Masquer le texte complètement — NVDA se comporte comme s'il n'avait jamais existé
-- Remplacer les étiquettes gênantes par des marqueurs courts (« Sponsored · Advertisement » → « skip »)
-- Appliquer les règles à une seule page, un domaine entier ou des motifs URL complexes (regex)
-- Support complet des expressions régulières pour une précision chirurgicale
-- Effet instantané — pas besoin de recharger la page
-- Interface contextuelle : double appui ouvre « Ajouter un site » avec l'URL actuelle préremplie
-- Support clic droit + touche Suppr pour une gestion rapide
-- Fichiers .json portables par site — faciles à sauvegarder ou partager
+## Puissant et pourtant élégamment simple
+
+*   Masquer complètement le texte — NVDA agit comme s'il n'avait jamais existé
+*   Remplacer les étiquettes agaçantes par de courts indicateurs (« Sponsorisé · Publicité » → « passer »)
+*   Appliquer des règles à une page, un domaine entier ou des motifs d'URL complexes (regex)
+*   Prise en charge complète des expressions régulières pour une précision chirurgicale
+*   Effet instantané — aucun rechargement de page requis
+*   Interface contextuelle : le geste double-frappe ouvre « Ajouter un site » avec l'URL actuelle pré-remplie
+*   Prise en charge du clic droit + touche Suppr pour une gestion rapide
+*   Fichiers .json portables par site — faciles à sauvegarder ou à partager
 
 ## Commencez en moins de 30 secondes
 
-1. Allez sur n'importe quelle page où NVDA lit quelque chose que vous voulez faire taire ou modifier.
+1.  Allez sur n'importe quelle page où NVDA lit quelque chose que vous souhaitez faire taire ou modifier.
 
-2. Appuyez sur **NVDA + Shift + W**  
-   - Appui simple → ouvre la fenêtre principale de gestion  
-   - Double appui (rapide) → ouvre la boîte de dialogue « Ajouter un site » avec l'URL actuelle déjà remplie
+2.  Appuyez sur **NVDA + Maj + W**<br><br>
+    → Simple frappe → ouvre la fenêtre de gestion principale<br>
+    → Double frappe (rapide) → ouvre le dialogue « Ajouter un nouveau site » avec l'URL actuelle déjà remplie
 
-3. Dans la boîte de dialogue **Ajouter un site** :  
-   - Conservez ou modifiez le nom affiché  
-   - Choisissez la portée :  
-     - Page unique uniquement  
-     - Site entier (domaine)  
-     - Expression régulière (correspondance URL avancée)  
-   - Cliquez sur **Enregistrer**
+3.  Dans le dialogue **Ajouter un site** :<br><br>
+    • Conservez ou modifiez le nom d'affichage<br>
+    • Choisissez la portée :<br>
+    &nbsp;&nbsp;– Page unique uniquement<br>
+    &nbsp;&nbsp;– Site Web complet (domaine)<br>
+    &nbsp;&nbsp;– Expression régulière (correspondance d'URL avancée)<br><br>
+    Cliquez sur **Enregistrer**
 
-4. Vous êtes maintenant dans le gestionnaire de règles du site :  
-   - Saisissez le motif à cibler  
-   - Entrez le texte de remplacement — ou laissez vide pour un silence total  
-   - Cochez « Utiliser comme expression régulière » si nécessaire  
-   - Cliquez sur **Ajouter** (ou **Mettre à jour** lors de l'édition)  
-   Les modifications s'appliquent instantanément — retournez naviguer et écouter.
+4.  Vous êtes maintenant dans le gestionnaire de règles du site :<br><br>
+    • Tapez le motif que vous souhaitez cibler<br>
+    • Entrez le texte de remplacement — ou laissez vide pour un silence complet<br>
+    • Cochez « Utiliser comme expression régulière » si nécessaire<br>
+    • Cliquez sur **Ajouter** (ou **Mettre à jour** lors de l'édition)<br><br>
+    Les changements s'appliquent instantanément — reprenez votre navigation et écoutez.
 
-Vous pouvez revenir à tout moment avec **NVDA+Shift+W** (appui simple) pour modifier, ajouter des règles, supprimer des entrées ou changer de site.
+<br>
 
-## Exemples concrets qui font gagner du temps tous les jours
+Vous pouvez revenir à tout moment avec **NVDA + Maj + W** (simple frappe) pour éditer, ajouter d'autres règles, supprimer des entrées ou basculer entre les sites.
 
-| Motif cible                 | Remplacement  | Regex ? | Ce que vous entendez à la place |
-|-----------------------------|---------------|---------|---------------------------------|
-| Advertisement               | (vide)        | Non     | — complètement ignoré —         |
-| Sponsored                   | skip          | Non     | « skip »                        |
-| · [0-9,]+ comments?         | (vide)        | Oui     | — pas de compte de commentaires |
-| Breaking News:              | News:         | Non     | Plus court et propre            |
-| ^Cookie notice.*accept      | (vide)        | Oui     | Bannière silencée               |
+## Exemples concrets qui font gagner du temps chaque jour
 
-## Astuces pro pour utilisateurs avancés
+| Motif cible | Remplacement | Regex ? | Ce que vous entendez à la place |
+| :--- | :--- | :--- | :--- |
+| Publicité | (vide) | Non | — complètement ignoré — |
+| Sponsorisé | passer | Non | « passer » |
+| · [0-9,]+ commentaires? | (vide) | Oui | — pas de décompte de commentaires — |
+| Flash info : | Info : | Non | Plus court et plus propre |
+| ^Avis relatif aux cookies.*accepter | (vide) | Oui | Texte de la bannière réduit au silence |
 
-- Clic droit sur un site ou une entrée → menu contextuel Éditer / Supprimer
-- Appuyez sur la touche **Suppr** sur l'élément sélectionné pour suppression instantanée
-- Utilisez la correspondance littérale la plus longue en premier → évite les problèmes de mots partiels
-- Importez des règles depuis un autre fichier .json directement dans n'importe quel site
-- Le mode regex supporte les groupes de remplacement — très puissant pour le contenu dynamique
+## Conseils de pro pour les utilisateurs avancés
 
-## Soutenez le projet
+*   Clic droit sur n'importe quel site ou entrée → menu contextuel avec Modifier / Supprimer
+*   Appuyez sur la touche **Suppr** sur l'élément sélectionné pour une suppression instantanée
+*   Utilise la correspondance littérale de type "plus long en premier" → évite les problèmes de mots partiels
+*   Importez des règles d'un autre fichier .json directement dans n'importe quel site
+*   Le mode Regex prend en charge les groupes de remplacement — très puissant pour le contenu dynamique
 
-Si Invisible a amélioré votre expérience de navigation quotidienne, envisagez de soutenir son développement continu.
+<br><br>
 
-[**Faire un don via GitHub Sponsors**](https://github.com/chaichaimee)
+## Me soutenir
 
----
+Si cet outil vous a facilité la vie, envisagez de soutenir la prochaine mise à jour par un petit don.
 
-© 2026 Chai Chaimee · Extension NVDA Invisible · Publiée sous GNU GPL v2+
+<br>
+
+[<img src="https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe" alt="Soutenez-moi">](https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01)
+
+<br>
+
+Votre soutien compte énormément. Construisons quelque chose de formidable ensemble.
+
+<br>
+
+<p align="center">© 2026 Chai Chaimee NVDA Add-on Publié sous licence GNU</p>

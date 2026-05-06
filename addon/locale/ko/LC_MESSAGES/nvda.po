@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "추가(&A)"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "취소(&C)"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "닫기(&C)"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "편집(&E)"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "사이트 편집(&E)"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "단어 편집(&E)"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "파일에서 가져오기(&I)..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "확인(&O)"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "제거(&R)"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "사이트 제거(&R)"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "단어 제거(&R)"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "저장(&S)"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "업데이트(&U)"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "새 사이트 추가"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "적용 대상:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "'{}'을(를) 정말로 제거하시겠습니까?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL을 가져올 수 없습니다. 브라우저가 활성화되어 있는지 확인하십시오."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "가져오기 확인"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "제거 확인"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "파일을 읽을 수 없습니다: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "표시 이름을 입력해야 합니다."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "표시 이름:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "사이트 편집"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "편집이 취소되었습니다"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "항목 편집 중: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "항목"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "항목이 성공적으로 추가되었습니다"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "항목이 제거되었습니다: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "항목이 성공적으로 업데이트되었습니다"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "오류"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "사이트 추가 실패. 이미 존재할 수 있습니다."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "항목 제거 실패"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "사이트 제거 실패"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "설정 저장 실패 (권한 또는 디스크 오류)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "사이트 업데이트 실패. 표시 이름이 이미 존재할 수 있습니다."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "가져오기 완료: {}개 추가됨, {}개 건너뜀."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "{}개의 단어를 현재 사이트 '{}'에 가져오시겠습니까?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "정보"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "유효하지 않은 정규식: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible 설정"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "선택된 사이트가 없습니다"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "파일에서 유효한 단어 항목을 찾을 수 없습니다."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "설정 열기(한 번 탭) 또는 새 사이트 추가(두 번 탭)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "원본 항목을 찾을 수 없습니다"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "패턴:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "패턴을 입력하십시오"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "먼저 사이트를 선택하십시오."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "정규식"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "정규식 (시작 부분부터 URL 일치)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "바꿀 내용:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "가져올 JSON 파일을 선택하십시오"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "단일 페이지만"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "사이트 목록"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "사이트를 찾을 수 없습니다"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "사이트 제거됨: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "선택한 파일이 유효한 Invisible 사이트 설정 파일이 아닙니다."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "이 패턴/정규식 조합이 이미 존재합니다"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL을 입력해야 합니다."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "예기치 않은 오류: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "정규식으로 사용"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "전체 웹사이트 (도메인)"

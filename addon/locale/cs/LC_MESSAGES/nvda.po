@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Czech\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Přidat"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Zrušit"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Zavřít"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Upravit"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "Upravit &web"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "Upravit &slovo"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Importovat ze souboru..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Odebrat"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "Odebrat w&eb"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "Odebrat s&lovo"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Uložit"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Aktualizovat"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Přidat nový web"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Použít na:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Opravdu chcete odebrat '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Nelze zachytit URL. Ujistěte se, že jste v prohlížeči."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Potvrdit import"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Potvrdit odebrání"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Nelze přečíst soubor: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Zobrazovaný název nesmí být prázdný."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Zobrazovaný název:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Upravit web"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Úprava zrušena"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Upravuje se položka: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Položky"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Položka byla úspěšně přidána"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Položka odebrána: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Položka byla úspěšně aktualizována"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Chyba"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Nepodařilo se přidat web. Je možné, že již existuje."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Nepodařilo se odebrat položku"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Nepodařilo se odebrat web"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Nepodařilo se uložit konfiguraci (chyba oprávnění nebo disku)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Nepodařilo se aktualizovat web. Zobrazovaný název již může existovat."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Import dokončen: {} přidáno, {} přeskočeno."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Importovat {} slov do aktuálního webu '{}'?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Informace"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Neplatný regulární výraz: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Nastavení Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Není vybrán žádný web"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "V souboru nebyly nalezeny žádné platné položky slov."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Otevřít nastavení Invisible (jedno klepnutí) nebo Přidat web (dvojité klepnutí)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Původní položka nebyla nalezena"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Vzor:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Zadejte prosím vzor"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Nejdříve prosím vyberte web."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Regulární výraz (shoda URL od začátku)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Náhrada:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Vyberte soubor JSON k importu"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Pouze jedna stránka"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Seznam webů"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Web nebyl nalezen"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Web odebrán: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Vybraný soubor se nezdá být platnou konfigurací webu Invisible."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Tato kombinace vzoru/regexu již existuje"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL nesmí být prázdná."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Neočekávaná chyba: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Použít jako regulární výraz"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Celý web (doména)"

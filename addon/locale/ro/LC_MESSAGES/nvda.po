@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Adaugă"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Anulează"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "Î&nchide"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Editează"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&Editează site-ul"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&Editează cuvântul"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Importă din fișier..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Elimină"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&Elimină site-ul"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&Elimină cuvântul"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Salvează"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "Act&ualizează"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Adaugă site nou"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Aplică la:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Sigur doriți să eliminați „{}”?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Nu s-a putut captura URL-ul. Asigurați-vă că sunteți într-un browser."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Confirmă importul"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Confirmă eliminarea"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Nu s-a putut citi fișierul: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Numele afișat nu poate fi gol."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Nume afișat:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Editează site-ul"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Editare anulată"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Se editează intrarea: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Intrări"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Intrare adăugată cu succes"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Intrare eliminată: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Intrare actualizată cu succes"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Eroare"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Adăugarea site-ului a eșuat. S-ar putea să existe deja."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Eliminarea intrării a eșuat"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Eliminarea site-ului a eșuat"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Salvarea configurației a eșuat (eroare de permisiuni sau de disc)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Actualizarea site-ului a eșuat. Numele afișat s-ar putea să existe deja."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Import finalizat: {} adăugate, {} omise."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Importați {} cuvânt(e) în site-ul curent „{}”?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Informație"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Expresie regulată nevalidă: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Setări Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Niciun site selectat"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Nu s-au găsit intrări de cuvinte valide în fișier."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Deschide setările Invisible (o atingere) sau Adaugă site nou (dublă atingere)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Intrarea originală nu a fost găsită"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Model (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Vă rugăm să introduceți un model"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Vă rugăm să selectați mai întâi un site."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Expresie regulată (potrivire URL de la început)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Înlocuire:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Selectați un fișier JSON pentru import"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Doar pagină unică"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Listă site-uri"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Site-ul nu a fost găsit"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Site eliminat: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Fișierul selectat nu pare a fi o configurație validă pentru site Invisible."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Această combinație de model/regex există deja"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL-ul nu poate fi gol."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Eroare neașteptată: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Folosește ca expresie regulată"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Întregul site web (domeniu)"

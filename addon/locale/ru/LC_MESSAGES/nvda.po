@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: invisible 2026.3\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 13:50+0700\n"
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Anonymous <anonymous@example.com>\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
 #: gui.py:102
 #: gui.py:214
@@ -20,7 +20,7 @@ msgstr "&Добавить"
 #: gui.py:105
 #: gui.py:576
 msgid "&Cancel"
-msgstr "От&мена"
+msgstr "О&тмена"
 
 #: gui.py:121
 msgid "&Close"
@@ -28,23 +28,23 @@ msgstr "&Закрыть"
 
 #: gui.py:103
 msgid "&Edit"
-msgstr "&Изменить"
+msgstr "&Редактировать"
 
 #: gui.py:257
 msgid "&Edit Site"
-msgstr "&Изменить сайт"
+msgstr "&Редактировать сайт"
 
 #: gui.py:398
 msgid "&Edit Word"
-msgstr "&Изменить слово"
+msgstr "&Редактировать слово"
 
 #: gui.py:119
 msgid "&Import from file..."
-msgstr "&Импортировать из файла..."
+msgstr "&Импорт из файла..."
 
 #: gui.py:120
 msgid "&OK"
-msgstr "&OK"
+msgstr "&ОК"
 
 #: gui.py:104
 msgid "&Remove"
@@ -81,16 +81,16 @@ msgstr "Вы уверены, что хотите удалить «{}»?"
 
 #: __init__.py:143
 msgid "Cannot capture URL. Make sure you are in a browser."
-msgstr "Не удалось захватить URL. Убедитесь, что вы находитесь в браузере."
+msgstr "Не удалось получить URL. Убедитесь, что вы находитесь в браузере."
 
 #: gui.py:369
 msgid "Confirm Import"
-msgstr "Подтверждение импорта"
+msgstr "Подтвердить импорт"
 
 #: gui.py:293
 #: gui.py:496
 msgid "Confirm Removal"
-msgstr "Подтверждение удаления"
+msgstr "Подтвердить удаление"
 
 #: gui.py:339
 msgid "Could not read file: {}"
@@ -106,7 +106,7 @@ msgstr "Отображаемое имя:"
 
 #: gui.py:521
 msgid "Edit Site"
-msgstr "Изменить сайт"
+msgstr "Редактировать сайт"
 
 #: gui.py:483
 msgid "Edit cancelled"
@@ -157,7 +157,7 @@ msgstr "Не удалось удалить сайт"
 #: manager.py:300
 #: manager.py:328
 msgid "Failed to save configuration (permission or disk error)"
-msgstr "Не удалось сохранить конфигурацию (ошибка доступа или диска)"
+msgstr "Не удалось сохранить конфигурацию (ошибка прав доступа или диска)"
 
 #: gui.py:651
 msgid "Failed to update site. The display name might already exist."
@@ -194,11 +194,11 @@ msgstr "Сайт не выбран"
 
 #: gui.py:362
 msgid "No valid word entries found in the file."
-msgstr "В файле не найдено корректных записей слов."
+msgstr "В файле не найдено допустимых записей слов."
 
 #: __init__.py:123
 msgid "Open Invisible settings (single tap) or Add new site (double tap)"
-msgstr "Открыть настройки Invisible (одно нажатие) или добавить сайт (двойное нажатие)"
+msgstr "Открыть настройки Invisible (одно касание) или добавить сайт (двойное касание)"
 
 #: manager.py:317
 msgid "Original entry not found"
@@ -219,11 +219,11 @@ msgstr "Пожалуйста, сначала выберите сайт."
 #: manager.py:269
 #: manager.py:271
 msgid "Regex"
-msgstr "Regex"
+msgstr "Регулярное выражение"
 
 #: gui.py:566
 msgid "Regular expression (match URL from start)"
-msgstr "Регулярное выражение (сопоставление URL с начала)"
+msgstr "Регулярное выражение (соответствие URL с начала)"
 
 #: gui.py:91
 msgid "Replacement:"
@@ -252,12 +252,12 @@ msgstr "Сайт удален: {}"
 
 #: gui.py:344
 msgid "The selected file does not appear to be a valid Invisible site configuration."
-msgstr "Выбранный файл не является корректной конфигурацией Invisible."
+msgstr "Выбранный файл не является допустимой конфигурацией сайта Invisible."
 
 #: manager.py:295
 #: manager.py:321
 msgid "This pattern/regex combination already exists"
-msgstr "Такая комбинация шаблона/выражения уже существует"
+msgstr "Эта комбинация шаблона и регулярного выражения уже существует"
 
 #: gui.py:643
 msgid "URL cannot be empty."
@@ -273,8 +273,8 @@ msgstr "Непредвиденная ошибка: {}"
 
 #: gui.py:97
 msgid "Use as regular expression"
-msgstr "Использовать регулярное выражение"
+msgstr "Использовать как регулярное выражение"
 
 #: gui.py:565
 msgid "Whole website (domain)"
-msgstr "Весь сайт (домен)"
+msgstr "Весь веб-сайт (домен)"

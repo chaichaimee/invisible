@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: invisible 2026.3\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 13:50+0700\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Anonymous <anonymous@example.com>\n"
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
 #: gui.py:102
 #: gui.py:214
@@ -32,11 +32,11 @@ msgstr "&Modifier"
 
 #: gui.py:257
 msgid "&Edit Site"
-msgstr "&Modifier le site"
+msgstr "Modifier le &site"
 
 #: gui.py:398
 msgid "&Edit Word"
-msgstr "&Modifier le mot"
+msgstr "Modifier le &mot"
 
 #: gui.py:119
 msgid "&Import from file..."
@@ -52,11 +52,11 @@ msgstr "&Supprimer"
 
 #: gui.py:258
 msgid "&Remove Site"
-msgstr "&Supprimer le site"
+msgstr "Supprimer le si&te"
 
 #: gui.py:399
 msgid "&Remove Word"
-msgstr "&Supprimer le mot"
+msgstr "Supprimer le m&ot"
 
 #: gui.py:575
 msgid "&Save"
@@ -177,7 +177,7 @@ msgstr "Information"
 
 #: gui.py:433
 msgid "Invalid Regular Expression: {}"
-msgstr "Expression régulière invalide : {}"
+msgstr "Expression régulière non valide : {}"
 
 #: __init__.py:24
 #: __init__.py:125
@@ -186,7 +186,7 @@ msgstr "Invisible"
 
 #: gui.py:21
 msgid "Invisible Settings"
-msgstr "Paramètres de Invisible"
+msgstr "Paramètres d'Invisible"
 
 #: gui.py:427
 msgid "No site selected"
@@ -198,11 +198,11 @@ msgstr "Aucune entrée de mot valide trouvée dans le fichier."
 
 #: __init__.py:123
 msgid "Open Invisible settings (single tap) or Add new site (double tap)"
-msgstr "Ouvrir les paramètres Invisible (un appui) ou ajouter un nouveau site (double appui)"
+msgstr "Paramètres (simple pression) ou Ajouter un site (double pression)"
 
 #: manager.py:317
 msgid "Original entry not found"
-msgstr "Entrée originale introuvable"
+msgstr "Entrée originale non trouvée"
 
 #: gui.py:85
 msgid "Pattern:"
@@ -210,7 +210,7 @@ msgstr "Motif :"
 
 #: gui.py:424
 msgid "Please enter a pattern"
-msgstr "Veuillez entrer un motif"
+msgstr "Veuillez saisir un motif"
 
 #: gui.py:322
 msgid "Please select a site first."
@@ -231,11 +231,11 @@ msgstr "Remplacement :"
 
 #: gui.py:327
 msgid "Select a JSON file to import"
-msgstr "Sélectionner un fichier JSON à importer"
+msgstr "Sélectionnez un fichier JSON à importer"
 
 #: gui.py:564
 msgid "Single page only"
-msgstr "Page unique seulement"
+msgstr "Page unique uniquement"
 
 #: gui.py:71
 msgid "Site List"
@@ -244,7 +244,7 @@ msgstr "Liste des sites"
 #: manager.py:290
 #: manager.py:308
 msgid "Site not found"
-msgstr "Site introuvable"
+msgstr "Site non trouvé"
 
 #: gui.py:314
 msgid "Site removed: {}"
@@ -252,7 +252,7 @@ msgstr "Site supprimé : {}"
 
 #: gui.py:344
 msgid "The selected file does not appear to be a valid Invisible site configuration."
-msgstr "Le fichier sélectionné ne semble pas être une configuration de site Invisible valide."
+msgstr "Le fichier sélectionné ne semble pas être une configuration Invisible valide."
 
 #: manager.py:295
 #: manager.py:321
@@ -277,4 +277,4 @@ msgstr "Utiliser comme expression régulière"
 
 #: gui.py:565
 msgid "Whole website (domain)"
-msgstr "Site web complet (domaine)"
+msgstr "Site web entier (domaine)"

@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Slovak\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Pridať"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Zrušiť"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Zavrieť"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Upraviť"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&Upraviť stránku"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&Upraviť slovo"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Importovať zo súboru..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Odstrániť"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&Odstrániť stránku"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&Odstrániť slovo"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Uložiť"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Aktualizovať"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Pridať novú stránku"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Použiť na:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Naozaj chcete odstrániť '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Nemožno získať URL adresu. Uistite sa, že ste v prehliadači."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Potvrdiť import"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Potvrdiť odstránenie"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Nepodarilo sa prečítať súbor: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Zobrazovaný názov nesmie byť prázdny."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Zobrazovaný názov:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Upraviť stránku"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Úprava bola zrušená"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Úprava záznamu: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Záznamy"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Záznam bol úspešne pridaný"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Záznam odstránený: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Záznam bol úspešne aktualizovaný"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Chyba"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Nepodarilo sa pridať stránku. Možno už existuje."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Nepodarilo sa odstrániť záznam"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Nepodarilo sa odstrániť stránku"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Nepodarilo sa uložiť konfiguráciu (povolenia alebo chyba disku)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Nepodarilo sa aktualizovať stránku. Zobrazovaný názov už možno existuje."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Import dokončený: {} pridaných, {} vynechaných."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Importovať {} slov(a) do aktuálnej stránky '{}'?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Informácia"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Neplatný regulárny výraz: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Nastavenia Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Nie je vybratá žiadna stránka"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "V súbore sa nenašli žiadne platné slová."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Otvoriť nastavenia Invisible (jedno klepnutie) alebo Pridať novú stránku (dvojité klepnutie)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Pôvodný záznam sa nenašiel"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Vzor (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Prosím, zadajte vzor"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Prosím, najskôr vyberte stránku."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Regulárny výraz (zhoda URL od začiatku)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Nahradiť čím:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Vyberte súbor JSON na import"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Iba jedna stránka"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Zoznam stránok"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Stránka sa nenašla"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Stránka odstránená: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Vybraný súbor zrejme nie je platnou konfiguráciou pre Invisible."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Táto kombinácia vzoru a regexu už existuje"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL adresa nesmie byť prázdna."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Neočakávaná chyba: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Použiť ako regulárny výraz"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Celá webová stránka (doména)"

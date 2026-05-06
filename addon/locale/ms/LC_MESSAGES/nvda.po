@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Malay\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Tambah"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Batal"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Tutup"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Edit"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&Edit Tapak"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&Edit Perkataan"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Import daripada fail..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Buang"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&Buang Tapak"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&Buang Perkataan"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Simpan"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Kemas Kini"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Tambah Tapak Baharu"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Gunakan pada:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Adakah anda pasti mahu membuang '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Tidak dapat menangkap URL. Pastikan anda berada di dalam pelayar."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Sahkan Import"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Sahkan Pembuangan"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Tidak dapat membaca fail: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Nama paparan tidak boleh kosong."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Nama paparan:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Edit Tapak"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Edit dibatalkan"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Mengedit entri: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Entri"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Entri berjaya ditambah"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Entri dibuang: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Entri berjaya dikemas kini"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Ralat"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Gagal menambah tapak. Ia mungkin sudah wujud."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Gagal membuang entri"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Gagal membuang tapak"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Gagal menyimpan konfigurasi (keizinan atau ralat cakera)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Gagal mengemas kini tapak. Nama paparan mungkin sudah wujud."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Import selesai: {} ditambah, {} dilangkau."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Import {} perkataan ke dalam tapak semasa '{}'?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Maklumat"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Ungkapan Nalar (Regex) Tidak Sah: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Tetapan Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Tiada tapak dipilih"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Tiada entri perkataan yang sah ditemui dalam fail."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Buka tetapan Invisible (ketik sekali) atau Tambah tapak baharu (ketik dua kali)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Entri asal tidak ditemui"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Corak (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Sila masukkan corak"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Sila pilih tapak terlebih dahulu."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Ungkapan nalar (padankan URL dari awal)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Penggantian:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Pilih fail JSON untuk diimport"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Halaman tunggal sahaja"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Senarai Tapak"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Tapak tidak ditemui"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Tapak dibuang: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Fail yang dipilih nampaknya bukan konfigurasi tapak Invisibleที่ sah."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Gabungan corak/regex ini sudah wujud"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL tidak boleh kosong."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Ralat tidak dijangka: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Guna sebagai ungkapan nalar (regex)"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Seluruh laman web (domain)"

@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Lao\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&ເພີ່ມ"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&ຍົກເລີກ"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&ປິດ"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&ແກ້ໄຂ"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&ແກ້ໄຂເວັບໄຊ"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&ແກ້ໄຂຄຳສັບ"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&ນຳເຂົ້າຈາກໄຟລ໌..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&ຕົກລົງ"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&ລຶບອອກ"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&ລຶບເວັບໄຊອອກ"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&ລຶບຄຳສັບອອກ"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&ບັນທຶກ"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&ອັບເດດ"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "ເພີ່ມເວັບໄຊໃໝ່"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "ນຳໃຊ້ກັບ:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບ '{}' ອອກ?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "ບໍ່ສາມາດດຶງ URL ໄດ້. ກະລຸນາກວດສອບວ່າທ່ານຢູ່ໃນບຣາວເຊີ."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "ຢືນຢັນການນຳເຂົ້າ"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "ຢືນຢັນການລຶບອອກ"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "ບໍ່ສາມາດອ່ານໄຟລ໌: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "ຊື່ທີ່ສະແດງຕ້ອງບໍ່ຫວ່າງເປົ່າ."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "ຊື່ທີ່ສະແດງ:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "ແແກ້ໄຂເວັບໄຊ"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "ຍົກເລີກການແກ້ໄຂ"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "ກຳລັງແກ້ໄຂລາຍການ: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "ລາຍການ"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "ເພີ່ມລາຍການສຳເລັດແລ້ວ"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "ລຶບລາຍການອອກແລ້ວ: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "ອັບເດດລາຍການສຳເລັດແລ້ວ"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "ຂໍ້ຜິດພາດ"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "ບໍ່ສາມາດເພີ່ມເວັບໄຊໄດ້. ມັນອາດຈະມີຢູ່ແລ້ວ."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "ບໍ່ສາມາດລຶບລາຍການອອກໄດ້"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "ບໍ່ສາມາດລຶບເວັບໄຊອອກໄດ້"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "ບໍ່ສາມາດບັນທຶກການຕັ້ງຄ່າ (ຂໍ້ຜິດພາດຂອງສິດທິ ຫຼື ດິດ)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "ບໍ່ສາມາດອັບເດດເວັບໄຊໄດ້. ຊື່ທີ່ສະແດງອາດຈະມີຢູ່ແລ້ວ."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "ການນຳເຂົ້າສຳເລັດ: ເພີ່ມ {} ລາຍການ, ຂ້າມ {} ລາຍການ."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "ນຳເຂົ້າ {} ຄຳສັບ ໄປຍັງເວັບໄຊ '{}' ປະຈຸບັນບໍ?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "ຂໍ້ມູນ"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Regular Expression ບໍ່ຖືກຕ້ອງ: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "ການຕັ້ງຄ່າ Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "ບໍ່ໄດ້ເລືອກເວັບໄຊ"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "ບໍ່ພົບລາຍການຄຳສັບທີ່ໃຊ້ໄດ້ໃນໄຟລ໌."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "ເປີດການຕັ້ງຄ່າ Invisible (ແຕະຄັ້ງດຽວ) ຫຼື ເພີ່ມເວັບໄຊໃໝ່ (ແຕະສອງຄັ້ງ)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "ບໍ່ພົບລາຍການຕົ້ນສະບັບ"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "ຮູບແບບ (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "ກະລຸນາປ້ອນຮູບແບບ"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "ກະລຸນາເລືອກເວັບໄຊກ່ອນ."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Regular expression (ກວດສອບ URL ຕັ້ງແຕ່ເລີ່ມຕົ້ນ)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "ແທນທີ່ດ້ວຍ:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "ເລືອກໄຟລ໌ JSON ເພື່ອນຳເຂົ້າ"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "ສະເພາະໜ້າດຽວ"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "ລາຍຊື່ເວັບໄຊ"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "ບໍ່ພົບເວັບໄຊ"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "ລຶບເວັບໄຊອອກແລ້ວ: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "ໄຟລ໌ທີ່ເລືອກເບິ່ງຄືວ່າບໍ່ແມ່ນການຕັ້ງຄ່າເວັບໄຊ Invisible ທີ່ຖືກຕ້ອງ."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "ຮູບແບບ/regex ນີ້ມີຢູ່ແລ້ວ"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL ຕ້ອງບໍ່ຫວ່າງເປົ່າ."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "ເກີດຂໍ້ຜິດພາດທີ່ບໍ່ຄາດຄິດ: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "ໃຊ້ເປັນ regular expression"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "ທັງໝົດເວັບໄຊ (ໂດເມນ)"

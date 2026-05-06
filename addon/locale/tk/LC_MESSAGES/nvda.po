@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Turkmen\n"
+"Language: tk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Goş"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Yatyr"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Ýap"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Redaktirle"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&Saýty redaktirle"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&Sözi redaktirle"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Faýldan import et..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&Bolýar"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Aýyr"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&Saýty aýyr"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&Sözi aýyr"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Sakla"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Tazele"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Täze saýt goş"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Ulanylsyn:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Siz '{}' aýyrmak isleýändigiňizden ynamlymy?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL alyp bolmady. Brauzerdedigiňizden ynamly boluň."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Importy tassykla"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Aýyrmagy tassykla"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Faýly okap bolmady: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Görkezilýän at boş bolmaly däl."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Görkezilýän at:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Saýty redaktirle"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Redaktirlemek ýatyryldy"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Ýazgy redaktirlenýär: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Ýazgylar"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Ýazgy üstünlikli goşuldy"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Ýazgy aýryldy: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Ýazgy üstünlikli täzelendi"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Ýalňyşlyk"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Saýt goşup bolmady. Ol eýýäm bar bolmagy mümkin."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Ýazgyny aýryp bolmady"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Saýty aýryp bolmady"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Konfigurasiýany saklap bolmady (ygtyýarlyk ýa-da disk ýalňyşlygy)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Saýty täzeläp bolmady. Görkezilýän at eýýäm bar bolmagy mümkin."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Import tamamlandy: {} goşuldy, {} sypdyryldy."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Şu anky '{}' saýtyna {} sözi import etmelimi?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Maglumat"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Nädogry yzygiderli aňlatma (Regex): {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible Sazlamalary"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Saýt saýlanmady"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Faýlda dogry söz ýazgysy tapylmady."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Invisible sazlamalaryny aç (bir gezek bas) ýa-da Täze saýt goş (iki gezek bas)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Asyl ýazgy tapylmady"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Nusga (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Nusga giriziň"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Ilki bilen saýt saýlaň."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Yzygiderli aňlatma (URL-i başyndan deňeşdir)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Çalyşma:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Import etmek üçin JSON faýlyny saýlaň"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Diňe bir sahypa"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Saýt sanawy"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Saýt tapylmady"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Saýt aýryldy: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Saýlanan faýl dogry Invisible saýt konfigurasiýasy däl ýaly görünýär."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Bu nusga/regex kombinasiýasy eýýäm bar"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL boş bolmaly däl."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Garaşylmadyk ýalňyşlyk: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Yzygiderli aňlatma hökmünde ulan"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Ähli web saýty (domen)"

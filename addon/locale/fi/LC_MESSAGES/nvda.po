@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Finnish\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Lisää"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Peruuta"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Sulje"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Muokkaa"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "Muokkaa &sivustoa"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "Muokkaa &sanaa"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Tuo tiedostosta..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Poista"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "Poista sivu&sto"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "Poista sa&na"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Tallenna"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Päivitä"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Lisää uusi sivusto"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Käytä kohteeseen:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Haluatko varmasti poistaa kohteen '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL-osoitetta ei voitu kaapata. Varmista, että olet selaimessa."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Vahvista tuonti"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Vahvista poisto"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Tiedostoa ei voitu lukea: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Näyttönimi ei voi olla tyhjä."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Näyttönimi:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Muokkaa sivustoa"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Muokkaus peruutettu"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Muokataan tietuetta: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Tietueet"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Tietue lisätty onnistuneesti"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Tietue poistettu: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Tietue päivitetty onnistuneesti"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Virhe"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Sivuston lisääminen epäonnistui. Se saattaa olla jo olemassa."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Tietueen poistaminen epäonnistui"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Sivuston poistaminen epäonnistui"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Asetusten tallentaminen epäonnistui (oikeus- tai levyvirhe)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Sivuston päivittäminen epäonnistui. Näyttönimi saattaa olla jo käytössä."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Tuonti valmis: {} lisätty, {} ohitettu."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Tuodaanko {} sanaa nykyiseen sivustoon '{}'?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Tiedot"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Virheellinen säännöllinen lauseke: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisiblen asetukset"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Sivustoa ei ole valittu"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Tiedostosta ei löytynyt kelvollisia sanatietueita."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Avaa asetukset (yksi napautus) tai Lisää sivusto (kaksoisnapautus)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Alkuperäistä tietuetta ei löytynyt"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Malli:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Ole hyvä ja syötä malli"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Valitse ensin sivusto."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Säännöllinen lauseke (vastaa URL-osoitetta alusta alkaen)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Korvaava:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Valitse tuotava JSON-tiedosto"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Vain yksittäinen sivu"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Sivustoluettelo"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Sivustoa ei löytynyt"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Sivusto poistettu: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Valittu tiedosto ei vaikuta olevan kelvollinen Invisiblen määritystiedosto."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Tämä malli/säännöllinen lauseke on jo olemassa"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL-osoite ei voi olla tyhjä."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Odottamaton virhe: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Käytä säännöllisenä lausekkeena"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Koko verkkosivusto (verkkotunnus)"

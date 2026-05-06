@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Aggiungi"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Annulla"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Chiudi"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Modifica"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "Modifica &sito"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "Modifica &parola"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Importa da file..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Rimuovi"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "Rimuovi si&to"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "Rimuovi pa&rola"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Salva"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Aggiorna"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Aggiungi nuovo sito"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Applica a:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Sei sicuro di voler rimuovere '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Impossibile catturare l'URL. Assicurati di essere in un browser."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Conferma importazione"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Conferma rimozione"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Impossibile leggere il file: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Il nome visualizzato non può essere vuoto."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Nome visualizzato:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Modifica sito"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Modifica annullata"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Modifica voce: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Voci"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Voce aggiunta con successo"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Voce rimossa: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Voce aggiornata con successo"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Errore"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Impossibile aggiungere il sito. Potrebbe già esistere."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Impossibile rimuovere la voce"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Impossibile rimuovere il sito"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Impossibile salvare la configurazione (errore di permessi o disco)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Impossibile aggiornare il sito. Il nome visualizzato potrebbe già esistere."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Importazione completata: {} aggiunti, {} saltati."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Importare {} parole nel sito corrente '{}'?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Informazione"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Espressione regolare non valida: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Impostazioni Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Nessun sito selezionato"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Nessuna voce di parola valida trovata nel file."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Apri impostazioni (tocco singolo) o Aggiungi sito (tocco doppio)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Voce originale non trovata"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Modello:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Inserisci un modello"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Seleziona prima un sito."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Espressione regolare (confronta URL dall'inizio)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Sostituzione:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Seleziona un file JSON da importare"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Solo singola pagina"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Elenco siti"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Sito non trovato"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Sito rimosso: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Il file selezionato non sembra essere una configurazione valida di Invisible."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Questa combinazione di modello/regex esiste già"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "L'URL non può essere vuoto."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Errore imprevisto: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Usa come espressione regolare"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Tutto il sito web (dominio)"

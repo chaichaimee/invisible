@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Burmese\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&ထည့်သွင်းရန်"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&ပယ်ဖျက်ရန်"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&ပိတ်ရန်"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&ပြင်ဆင်ရန်"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&ဝဘ်ဆိုဒ်ကို ပြင်ဆင်ရန်"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&စကားလုံး ပြင်ဆင်ရန်"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&ဖိုင်မှ တင်သွင်းရန်..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&အိုကေ"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&ဖယ်ရှားရန်"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&ဝဘ်ဆိုဒ်ကို ဖယ်ရှားရန်"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&စကားလုံးကို ဖယ်ရှားရန်"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&သိမ်းဆည်းရန်"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&အပ်ဒိတ်လုပ်ရန်"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "ဝဘ်ဆိုဒ်အသစ် ထည့်ရန်"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "သက်ရောက်မည့်နေရာ -"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "'{}' ကို ဖယ်ရှားရန် သေချာပါသလား။"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL ကို ရယူ၍မရပါ။ ဘရောက်ဇာထဲတွင် ရှိနေကြောင်း သေချာပါစေ။"
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "တင်သွင်းခြင်းကို အတည်ပြုရန်"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "ဖယ်ရှားခြင်းကို အတည်ပြုရန်"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "ဖိုင်ကို ဖတ်၍မရပါ - {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "ပြသမည့်အမည်သည် ဗလာဖြစ်၍မရပါ။"
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "ပြသမည့်အမည် -"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "ဝဘ်ဆိုဒ်ကို ပြင်ဆင်ရန်"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "ပြင်ဆင်ခြင်းကို ပယ်ဖျက်လိုက်သည်"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "ထည့်သွင်းချက်ကို ပြင်ဆင်နေသည် - {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "ထည့်သွင်းချက်များ"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "ထည့်သွင်းချက်ကို အောင်မြင်စွာ ထည့်သွင်းပြီးပါပြီ"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "ထည့်သွင်းချက်ကို ဖယ်ရှားပြီး - {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "ထည့်သွင်းချက်ကို အောင်မြင်စွာ အပ်ဒိတ်လုပ်ပြီးပါပြီ"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "အမှား"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "ဝဘ်ဆိုဒ် ထည့်သွင်းရန် မအောင်မြင်ပါ။ ရှိနှင့်ပြီးသား ဖြစ်နိုင်ပါသည်။"
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "ထည့်သွင်းချက်ကို ဖယ်ရှားရန် မအောင်မြင်ပါ"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "ဝဘ်ဆိုဒ်ကို ဖယ်ရှားရန် မအောင်မြင်ပါ"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "စီစဉ်သတ်မှတ်မှုကို သိမ်းဆည်းရန် မအောင်မြင်ပါ (ခွင့်ပြုချက် သို့မဟုတ် ဒစ်ခ် အမှား)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "ဝဘ်ဆိုဒ်ကို အပ်ဒိတ်လုပ်ရန် မအောင်မြင်ပါ။ ပြသမည့်အမည် ရှိနှင့်ပြီးသား ဖြစ်နိုင်ပါသည်။"
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "တင်သွင်းခြင်း ပြီးဆုံးပါပြီ - {} ခု ထည့်သွင်းပြီး၊ {} ခု ကျော်သွားသည်။"
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "စကားလုံး {} လုံးကို လက်ရှိဝဘ်ဆိုဒ် '{}' ထဲသို့ တင်သွင်းမလား။"
+
+#: gui.py:362
+msgid "Information"
+msgstr "အချက်အလက်"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "မမှန်ကန်သော ပုံမှန်အသုံးအနှုန်း (Regex) - {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible ဆက်တင်များ"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "ဝဘ်ဆိုဒ်ကို ရွေးချယ်ထားခြင်း မရှိပါ"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "ဖိုင်ထဲတွင် အကျုံးဝင်သော စကားလုံး ထည့်သွင်းချက်များ မတွေ့ပါ။"
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Invisible ဆက်တင်များကို ဖွင့်ရန် (တစ်ချက်နှိပ်) သို့မဟုတ် ဝဘ်ဆိုဒ်အသစ်ထည့်ရန် (နှစ်ချက်နှိပ်)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "မူလထည့်သွင်းချက်ကို မတွေ့ပါ"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "ပုံစံ -"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "ပုံစံတစ်ခု ထည့်သွင်းပေးပါ"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "ဦးစွာ ဝဘ်ဆိုဒ်တစ်ခုကို ရွေးချယ်ပေးပါ"
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "ပုံမှန်အသုံးအနှုန်း (URL ကို အစမှ တိုက်စစ်ရန်)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "အစားထိုးရန် -"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "တင်သွင်းရန် JSON ဖိုင်ကို ရွေးချယ်ပါ"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "စာမျက်နှာတစ်ခုတည်းသာ"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "ဝဘ်ဆိုဒ်စာရင်း"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "ဝဘ်ဆိုဒ်ကို မတွေ့ပါ"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "ဝဘ်ဆိုဒ်ကို ဖယ်ရှားပြီး - {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "ရွေးချယ်ထားသောဖိုင်သည် အကျုံးဝင်သော Invisible ဝဘ်ဆိုဒ် စီစဉ်သတ်မှတ်မှု မဟုတ်ပုံရပါ။"
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "ဤ ပုံစံ/regex ပေါင်းစပ်မှု ရှိနှင့်ပြီးသားဖြစ်သည်"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL သည် ဗလာဖြစ်၍မရပါ။"
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL -"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "မမျှော်လင့်ထားသော အမှား - {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "ပုံမှန်အသုံးအနှုန်းအဖြစ် သုံးရန်"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "ဝဘ်ဆိုဒ်တစ်ခုလုံး (ဒိုမိန်း)"

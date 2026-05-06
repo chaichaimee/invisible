@@ -1,86 +1,100 @@
-<div align="center">
+<p align="center">
   <img src="https://www.nvaccess.org/wp-content/uploads/2015/10/NVDA_logo_standard_transparent.png" alt="NVDA Logo" width="220">
-</div>
+</p>
 
 # Invisible
 
-*Stille den Ballast. Formen Sie die Stimme. Beherrschen Sie Ihr Surferlebnis.*
+<p align="center"><i>Beenden Sie das Durcheinander. Gestalten Sie die Stimme. Bestimmen Sie Ihr Surferlebnis selbst.</i></p>
 
-**Autor:** Chai Chaimee  
-**Repository:** [github.com/chaichaimee/invisible](https://github.com/chaichaimee/invisible)
+<p align="center">
+  <strong>Autor:</strong> Chai Chaimee<br>
+  <strong>Repository:</strong> <a href="https://github.com/chaichaimee/invisible">github.com/chaichaimee/invisible</a>
+</p>
 
 ---
 
-## Warum sich mit lauten Webseiten abfinden?
+## Warum sich mit lauten Webseiten zufriedengeben?
 
-Moderne Websites sind voller Wiederholungen, Sponsorenhinweise, Cookie-Meldungen, Kommentarzahlen, Seitenleisten und automatisch generiertem Füllmaterial, das Screenreader immer wieder vorlesen müssen — wieder und wieder.
+Moderne Websites sind voll von Wiederholungen, Sponsoren-Labels, Cookie-Hinweisen, Kommentar-Zählern, Seitenleisten und automatisch generiertem Ballast, den Screenreader immer und immer wieder vorlesen müssen.
 
 **Invisible** gibt Ihnen die Kontrolle zurück.
 
-Entscheiden Sie genau, welche Wörter, Phrasen oder Muster NVDA komplett überspringen soll — oder leise durch etwas Kürzeres, Sauberes oder völlig Stilles ersetzen soll.
+Entscheiden Sie genau, welche Wörter, Sätze oder Muster NVDA komplett überspringen soll – oder ersetzen Sie sie leise durch etwas Kürzeres, Saubereres oder völlige Stille.
 
-Dies ist nicht nur Filterung. Dies ist **persönliche Audiokuration** für das Web.
+<br><br>
 
-## Leistungsstark und dennoch elegant einfach
+Dies ist nicht nur Filterung. Dies ist **persönliche Audio-Kuration** für das Web.
 
-- Text komplett ausblenden — NVDA verhält sich, als hätte er nie existiert
-- Störende Bezeichnungen durch kurze Platzhalter ersetzen („Sponsored · Advertisement“ → „skip“)
-- Regeln auf eine einzelne Seite, eine gesamte Domain oder komplexe URL-Muster (Regex) anwenden
-- Vollständige Unterstützung für reguläre Ausdrücke für chirurgische Präzision
-- Sofortige Wirkung — kein Neuladen der Seite nötig
-- Kontextsensitive Oberfläche: Doppel-Tipp-Geste öffnet „Add Site“ mit aktueller URL vorausgefüllt
-- Rechtsklick + Entf-Taste für schnelle Verwaltung
-- Portable .json-Dateien pro Site — einfach sichern oder teilen
+## Leistungsstark und doch elegant einfach
 
-## In unter 30 Sekunden starten
+*   Text komplett ausblenden – NVDA verhält sich so, als ob er nie existiert hätte
+*   Lästige Labels durch kurze Platzhalter ersetzen („Gesponsert · Anzeige“ → „überspringen“)
+*   Regeln auf eine einzelne Seite, eine gesamte Domain oder komplexe URL-Muster (Regex) anwenden
+*   Volle Unterstützung für reguläre Ausdrücke für chirurgische Präzision
+*   Sofortiger Effekt – kein Neuladen der Seite erforderlich
+*   Kontextsensitive Benutzeroberfläche: Doppeltipp-Geste öffnet „Seite hinzufügen“ mit bereits ausgefüllter aktueller URL
+*   Unterstützung für Rechtsklick + Entf-Taste für schnelle Verwaltung
+*   Portable .json-Dateien pro Seite – einfach zu sichern oder zu teilen
 
-1. Gehen Sie zu einer beliebigen Seite, auf der NVDA etwas vorliest, das Sie stummschalten oder ändern möchten.
+## In weniger als 30 Sekunden loslegen
 
-2. Drücken Sie **NVDA + Shift + W**  
-   - Einzelner Tipp → öffnet das Hauptverwaltungsfenster  
-   - Doppeltipp (schnell) → öffnet „Neue Site hinzufügen“ mit aktueller URL bereits eingefügt
+1.  Gehen Sie auf eine beliebige Seite, auf der NVDA etwas liest, das Sie stummschalten oder ändern möchten.
 
-3. Im Dialog **Site hinzufügen**:  
-   - Anzeigenamen beibehalten oder bearbeiten  
-   - Umfang wählen:  
-     - Nur einzelne Seite  
-     - Gesamte Website (Domain)  
-     - Regulärer Ausdruck (erweiterte URL-Übereinstimmung)  
-   - Klicken Sie auf **Speichern**
+2.  Drücken Sie **NVDA + Umschalt + W**<br><br>
+    → Einmaliges Tippen → öffnet das Hauptverwaltungsfenster<br>
+    → Doppeltippen (schnell) → öffnet den Dialog „Neue Seite hinzufügen“ mit bereits ausgefüllter aktueller URL
 
-4. Nun befinden Sie sich im Regel-Manager der Site:  
-   - Geben Sie das zu treffende Muster ein  
-   - Ersetzungstext eingeben — oder leer lassen für vollständige Stille  
-   - „Als regulären Ausdruck verwenden“ aktivieren, wenn nötig  
-   - Auf **Hinzufügen** (oder **Aktualisieren** beim Bearbeiten) klicken  
-   Änderungen wirken sofort — zurück zum Surfen und Zuhören.
+3.  Im Dialog **Seite hinzufügen**:<br><br>
+    • Behalten oder bearbeiten Sie den Anzeigenamen<br>
+    • Wählen Sie den Bereich:<br>
+    &nbsp;&nbsp;– Nur einzelne Seite<br>
+    &nbsp;&nbsp;– Gesamte Website (Domain)<br>
+    &nbsp;&nbsp;– Regulärer Ausdruck (erweitertes URL-Matching)<br><br>
+    Klicken Sie auf **Speichern**
 
-Sie können jederzeit mit **NVDA+Shift+W** (einzelner Tipp) zurückkehren, um zu bearbeiten, weitere Regeln hinzuzufügen, Einträge zu entfernen oder zwischen Sites zu wechseln.
+4.  Jetzt befinden Sie sich im Regel-Manager der Seite:<br><br>
+    • Geben Sie das Muster ein, das Sie anvisieren möchten<br>
+    • Geben Sie den Ersetzungstext ein – oder lassen Sie ihn für komplette Stille leer<br>
+    • Aktivieren Sie bei Bedarf „Als regulären Ausdruck verwenden“<br>
+    • Klicken Sie auf **Hinzufügen** (oder **Aktualisieren** beim Bearbeiten)<br><br>
+    Änderungen werden sofort wirksam – kehren Sie zum Surfen zurück und hören Sie zu.
 
-## Realwelt-Beispiele, die jeden Tag Zeit sparen
+<br>
 
-| Zielmuster                  | Ersetzung     | Regex? | Was Sie stattdessen hören      |
-|-----------------------------|---------------|--------|--------------------------------|
-| Advertisement               | (leer)        | Nein   | — komplett übersprungen —      |
-| Sponsored                   | skip          | Nein   | „skip“                         |
-| · [0-9,]+ comments?         | (leer)        | Ja     | — keine Kommentarzahlen —      |
-| Breaking News:              | News:         | Nein   | Kürzer & sauberer              |
-| ^Cookie notice.*accept      | (leer)        | Ja     | Bannermeldung stummgeschaltet  |
+Sie können jederzeit mit **NVDA + Umschalt + W** (einmaliges Tippen) zurückkehren, um Regeln zu bearbeiten, weitere hinzuzufügen, Einträge zu entfernen oder zwischen Seiten zu wechseln.
 
-## Pro-Tipps für Power-User
+## Praxisbeispiele, die jeden Tag Zeit sparen
 
-- Rechtsklick auf Site oder Eintrag → Kontextmenü mit Bearbeiten / Entfernen
-- Entf-Taste auf ausgewähltem Element für sofortiges Entfernen drücken
-- Längste-wörtliche-Zuerst-Abgleich verwenden → vermeidet Teilwort-Probleme
-- Regeln aus einer anderen .json-Datei direkt in eine Site importieren
-- Regex-Modus unterstützt Ersetzungsgruppen — sehr mächtig für dynamischen Inhalt
+| Zielmuster | Ersetzung | Regex? | Was Sie stattdessen hören |
+| :--- | :--- | :--- | :--- |
+| Anzeige | (leer) | Nein | — komplett übersprungen — |
+| Gesponsert | überspringen | Nein | „überspringen“ |
+| · [0-9,]+ Kommentare? | (leer) | Ja | — keine Kommentarzähler — |
+| Eilmeldung: | News: | Nein | Kürzer & sauberer |
+| ^Cookie-Hinweis.*akzeptieren | (leer) | Ja | Banner-Text stummgeschaltet |
 
-## Das Projekt unterstützen
+## Profi-Tipps für Power-User
 
-Wenn Invisible Ihr tägliches Surferlebnis verbessert hat, denken Sie darüber nach, die Weiterentwicklung zu unterstützen.
+*   Rechtsklick auf eine Seite oder einen Eintrag → Kontextmenü mit Bearbeiten / Entfernen
+*   Drücken Sie die **Entf-Taste** auf einem ausgewählten Element für sofortige Entfernung
+*   Verwendet „Literal Longest-First Matching“ → vermeidet Probleme mit Teilwörtern
+*   Regeln aus einer anderen .json-Datei direkt in eine beliebige Seite importieren
+*   Der Regex-Modus unterstützt Ersetzungsgruppen – sehr mächtig für dynamische Inhalte
 
-[**Spenden via GitHub Sponsors**](https://github.com/chaichaimee)
+<br><br>
 
----
+## Mich unterstützen
 
-© 2026 Chai Chaimee · Invisible NVDA Add-on · Veröffentlicht unter GNU GPL v2+
+Wenn dieses Tool Ihr Leben erleichtert hat, ziehen Sie in Erwägung, das nächste Update mit einer kleinen Spende zu unterstützen.
+
+<br>
+
+[<img src="https://img.shields.io/badge/Donate-Support%20Me-blue?style=for-the-badge&logo=stripe" alt="Support me">](https://buy.stripe.com/dRm9AU1xQ3Ds22N6VK1VK01)
+
+<br>
+
+Ihre Unterstützung bedeutet mir viel. Lassen Sie uns gemeinsam etwas Großartiges bauen.
+
+<br>
+
+<p align="center">© 2026 Chai Chaimee NVDA Add-on Veröffentlicht unter GNU</p>

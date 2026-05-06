@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: invisible 2026.3\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 13:50+0700\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Anonymous <anonymous@example.com>\n"
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
 "Language-Team: Spanish\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: NVDA DevOn Addon\n"
+"X-Generator: DevOn Addon\n"
 
 #: gui.py:102
 #: gui.py:214
@@ -52,11 +52,11 @@ msgstr "&Eliminar"
 
 #: gui.py:258
 msgid "&Remove Site"
-msgstr "&Eliminar sitio"
+msgstr "Eliminar &sitio"
 
 #: gui.py:399
 msgid "&Remove Word"
-msgstr "&Eliminar palabra"
+msgstr "Eliminar &palabra"
 
 #: gui.py:575
 msgid "&Save"
@@ -77,11 +77,11 @@ msgstr "Aplicar a:"
 #: gui.py:292
 #: gui.py:495
 msgid "Are you sure you want to remove '{}'?"
-msgstr "¿Estás seguro de que quieres eliminar '{}'?"
+msgstr "¿Estás seguro de que deseas eliminar '{}'?"
 
 #: __init__.py:143
 msgid "Cannot capture URL. Make sure you are in a browser."
-msgstr "No se pudo capturar la URL. Asegúrate de estar en un navegador."
+msgstr "No se puede capturar la URL. Asegúrate de estar en un navegador."
 
 #: gui.py:369
 msgid "Confirm Import"
@@ -122,7 +122,7 @@ msgstr "Entradas"
 
 #: gui.py:458
 msgid "Entry added successfully"
-msgstr "Entrada añadida con éxito"
+msgstr "Entrada añadida correctamente"
 
 #: gui.py:504
 msgid "Entry removed: {}"
@@ -130,7 +130,7 @@ msgstr "Entrada eliminada: {}"
 
 #: gui.py:448
 msgid "Entry updated successfully"
-msgstr "Entrada actualizada con éxito"
+msgstr "Entrada actualizada correctamente"
 
 #: gui.py:280
 #: gui.py:339
@@ -144,32 +144,32 @@ msgstr "Error"
 
 #: gui.py:658
 msgid "Failed to add site. It may already exist."
-msgstr "Fallo al añadir sitio. Puede que ya exista."
+msgstr "Error al añadir el sitio. Es posible que ya exista."
 
 #: gui.py:507
 msgid "Failed to remove entry"
-msgstr "Fallo al eliminar entrada"
+msgstr "Error al eliminar la entrada"
 
 #: gui.py:316
 msgid "Failed to remove site"
-msgstr "Fallo al eliminar sitio"
+msgstr "Error al eliminar el sitio"
 
 #: manager.py:300
 #: manager.py:328
 msgid "Failed to save configuration (permission or disk error)"
-msgstr "Fallo al guardar la configuración (error de permiso o disco)"
+msgstr "Error al guardar la configuración (permisos o error de disco)"
 
 #: gui.py:651
 msgid "Failed to update site. The display name might already exist."
-msgstr "Fallo al actualizar sitio. El nombre a mostrar podría existir ya."
+msgstr "Error al actualizar el sitio. Es posible que el nombre a mostrar ya exista."
 
 #: gui.py:392
 msgid "Import completed: {} added, {} skipped."
-msgstr "Importación completada: {} añadidos, {} omitidos."
+msgstr "Importación completada: {} añadidas, {} omitidas."
 
 #: gui.py:366
 msgid "Import {} word(s) into the current site '{}'?"
-msgstr "¿Importar {} palabra(s) al sitio actual '{}'?"
+msgstr "¿Importar {} palabra(s) en el sitio actual '{}'?"
 
 #: gui.py:362
 msgid "Information"
@@ -198,7 +198,7 @@ msgstr "No se encontraron entradas de palabras válidas en el archivo."
 
 #: __init__.py:123
 msgid "Open Invisible settings (single tap) or Add new site (double tap)"
-msgstr "Abrir configuración de Invisible (un toque) o añadir nuevo sitio (dos toques)"
+msgstr "Abrir ajustes (un toque) o Añadir sitio (dos toques)"
 
 #: manager.py:317
 msgid "Original entry not found"
@@ -235,7 +235,7 @@ msgstr "Selecciona un archivo JSON para importar"
 
 #: gui.py:564
 msgid "Single page only"
-msgstr "Solo una página"
+msgstr "Solo página individual"
 
 #: gui.py:71
 msgid "Site List"
@@ -257,7 +257,7 @@ msgstr "El archivo seleccionado no parece ser una configuración de sitio de Inv
 #: manager.py:295
 #: manager.py:321
 msgid "This pattern/regex combination already exists"
-msgstr "Esta combinación de patrón/regex ya existe"
+msgstr "Esta combinación de patrón/expresión regular ya existe"
 
 #: gui.py:643
 msgid "URL cannot be empty."
@@ -277,4 +277,4 @@ msgstr "Usar como expresión regular"
 
 #: gui.py:565
 msgid "Whole website (domain)"
-msgstr "Sitio web completo (dominio)"
+msgstr "Todo el sitio web (dominio)"

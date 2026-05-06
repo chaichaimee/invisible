@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:35+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Chinese (Traditional)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "新增(&A)"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "關閉(&C)"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "編輯(&E)"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "編輯站點(&E)"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "編輯詞條(&E)"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "從檔案匯入(&I)..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "確定(&O)"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "移除(&R)"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "移除站點(&R)"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "移除詞條(&R)"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "儲存(&S)"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "更新(&U)"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "新增站點"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "套用於："
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "您確定要移除「{}」嗎？"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "無法擷取 URL。請確保您正在使用瀏覽器。"
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "確認匯入"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "確認移除"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "無法讀取檔案：{}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "顯示名稱不能為空。"
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "顯示名稱："
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "編輯站點"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "已取消編輯"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "正在編輯條目：{}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "條目"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "條目已成功新增"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "條目已移除：{}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "條目已成功更新"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "錯誤"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "新增站點失敗。該站點可能已存在。"
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "移除條目失敗"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "移除站點失敗"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "儲存設定失敗（權限不足或磁碟錯誤）"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "更新站點失敗。顯示名稱可能已存在。"
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "匯入完成：已新增 {}，已跳過 {}。"
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "要將 {} 個詞條匯入目前的站點「{}」嗎？"
+
+#: gui.py:362
+msgid "Information"
+msgstr "資訊"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "無效的正則表達式：{}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible 設定"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "未選取站點"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "檔案中找不到有效的詞條。"
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "開啟 Invisible 設定（單按）或新增站點（雙按）"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "找不到原始條目"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "模式："
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "請輸入模式"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "請先選取一個站點。"
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "正則"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "正則表達式（從頭比對 URL）"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "替換內容："
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "選取要匯入的 JSON 檔案"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "僅限單一頁面"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "站點清單"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "找不到站點"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "站點已移除：{}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "選取的檔案似乎不是有效的 Invisible 站點設定檔。"
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "此模式/正則組合已存在"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL 不能為空。"
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL："
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "預料之外的錯誤：{}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "做為正則表達式使用"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "整個網站（網域）"

@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Bengali\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "যোগ করুন (&A)"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "বাতিল (&C)"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "বন্ধ করুন (&C)"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "সম্পাদনা (&E)"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "সাইট সম্পাদনা (&E)"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "শব্দ সম্পাদনা (&E)"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "ফাইল থেকে ইম্পোর্ট... (&I)"
+
+#: gui.py:120
+msgid "&OK"
+msgstr "ঠিক আছে (&O)"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "সরিয়ে ফেলুন (&R)"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "সাইট সরিয়ে ফেলুন (&R)"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "শব্দ সরিয়ে ফেলুন (&R)"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "সংরক্ষণ (&S)"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "আপডেট (&U)"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "নতুন সাইট যোগ করুন"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "প্রয়োগ করুন:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "আপনি কি নিশ্চিত যে আপনি '{}' সরিয়ে ফেলতে চান?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL ক্যাপচার করা যাচ্ছে না। ব্রাউজারে আছেন কিনা নিশ্চিত করুন।"
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "ইম্পোর্ট নিশ্চিত করুন"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "সরিয়ে ফেলা নিশ্চিত করুন"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "ফাইল পড়া যায়নি: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "নামের ঘর খালি রাখা যাবে না।"
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "নাম:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "সাইট সম্পাদনা"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "সম্পাদনা বাতিল করা হয়েছে"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "এন্ট্রি সম্পাদনা করা হচ্ছে: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "এন্ট্রি সমূহ"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "এন্ট্রি সফলভাবে যোগ করা হয়েছে"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "এন্ট্রি সরিয়ে ফেলা হয়েছে: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "এন্ট্রি সফলভাবে আপডেট করা হয়েছে"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "ত্রুটি"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "সাইট যোগ করতে ব্যর্থ। এটি ইতিমধ্যে থাকতে পারে।"
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "এন্ট্রি সরাতে ব্যর্থ"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "সাইট সরাতে ব্যর্থ"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "কনফিগারেশন সংরক্ষণ করতে ব্যর্থ (অনুমতি বা ডিস্ক ত্রুটি)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "সাইট আপডেট করতে ব্যর্থ। নামটি ইতিমধ্যে ব্যবহৃত হতে পারে।"
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "ইম্পোর্ট সম্পন্ন: {} যোগ করা হয়েছে, {} বাদ দেওয়া হয়েছে।"
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "বর্তমান সাইট '{}'-এ {} শব্দ ইম্পোর্ট করবেন?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "তথ্য"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "অকার্যকর রেগুলার এক্সপ্রেশন: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible সেটিংস"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "কোন সাইট নির্বাচন করা হয়নি"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "ফাইলে কোন কার্যকর শব্দ পাওয়া যায়নি।"
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "সেটিংস খুলুন (একবার ট্যাপ) অথবা নতুন সাইট যোগ করুন (দুইবার ট্যাপ)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "আসল এন্ট্রি পাওয়া যায়নি"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "প্যাটার্ন:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "অনুগ্রহ করে একটি প্যাটার্ন দিন"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "অনুগ্রহ করে প্রথমে একটি সাইট নির্বাচন করুন।"
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "রেগুলার এক্সপ্রেশন (শুরু থেকে URL মেলাবে)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "প্রতিস্থাপন:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "ইম্পোর্ট করার জন্য JSON ফাইল বাছুন"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "শুধুমাত্র একটি পাতা"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "সাইট তালিকা"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "সাইট পাওয়া যায়নি"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "সাইট সরিয়ে ফেলা হয়েছে: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "নির্বাচিত ফাইলটি সঠিক Invisible সাইট কনফিগারেশন নয়।"
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "এই প্যাটার্ন/রেজেক্স এর সংমিশ্রণ ইতিমধ্যে আছে"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL খালি রাখা যাবে না।"
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "অপ্রত্যাশিত ত্রুটি: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "রেগুলার এক্সপ্রেশন হিসাবে ব্যবহার করুন"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "পুরো ওয়েবসাইট (ডোমেইন)"

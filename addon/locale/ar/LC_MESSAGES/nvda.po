@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "إ&ضافة"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "إ&لغاء"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "إ&غلاق"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "ت&عديل"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "تعديل الموق&ع"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "تعديل الكلم&ة"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "استيرا&د من ملف..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&موافق"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "إ&زالة"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "إزالة الموق&ع"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "إزالة الكلم&ة"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&حفظ"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "ت&حديث"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "إضافة موقع جديد"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "تطبيق على:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "هل أنت متأكد من رغبتك في إزالة '{}'؟"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "تعذر التقاط عنوان URL. تأكد من أنك داخل المتصفح."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "تأكيد الاستيراد"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "تأكيد الإزالة"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "تعذر قراءة الملف: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "لا يمكن ترك اسم العرض فارغاً."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "اسم العرض:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "تعديل الموقع"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "تم إلغاء التعديل"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "تعديل الإدخال: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "الإدخالات"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "تم إضافة الإدخال بنجاح"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "تم إزالة الإدخال: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "تم تحديث الإدخال بنجاح"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "خطأ"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "فشل في إضافة الموقع. ربما هو موجود بالفعل."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "فشل في إزالة الإدخال"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "فشل في إزالة الموقع"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "فشل حفظ الإعدادات (خطأ في الصلاحيات أو القرص)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "فشل تحديث الموقع. قد يكون اسم العرض موجوداً بالفعل."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "اكتمل الاستيراد: تم إضافة {}، وتخطي {}."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "استيراد {} كلمة إلى الموقع الحالي '{}'؟"
+
+#: gui.py:362
+msgid "Information"
+msgstr "معلومات"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "تعبير نمطي غير صالح: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "إعدادات Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "لم يتم اختيار موقع"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "لم يتم العثور على إدخالات كلمات صالحة في الملف."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "فتح إعدادات Invisible (ضغطة واحدة) أو إضافة موقع جديد (ضغطتان)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "لم يتم العثور على الإدخال الأصلي"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "النمط:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "الرجاء إدخال نمط"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "الرجاء اختيار موقع أولاً."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "تعبير نمطي (مطابقة عنوان URL من البداية)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "الاستبدال:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "اختر ملف JSON للاستيراد"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "صفحة واحدة فقط"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "قائمة المواقع"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "الموقع غير موجود"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "تم إزالة الموقع: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "لا يبدو أن الملف المختار هو ملف إعدادات موقع Invisible صالح."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "هذا النمط/التعبير النمطي موجود بالفعل"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "لا يمكن ترك عنوان URL فارغاً."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "عنوان URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "خطأ غير متوقع: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "استخدام كتعبير نمطي"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "الموقع الإلكتروني بالكامل (النطاق)"

@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Hebrew\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "הו&ספה"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&ביטול"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&סגירה"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&עריכה"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&עריכת אתר"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&עריכת מילה"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&ייבוא מקובץ..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&אישור"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "הס&רה"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "הס&רת אתר"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "הס&רת מילה"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&שמירה"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&עדכון"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "הוספת אתר חדש"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "החל על:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "האם אתה בטוח שברצונך להסיר את '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "לא ניתן ללכוד כתובת URL. ודא שאתה נמצא בדפדפן."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "אישור ייבוא"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "אישור הסרה"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "לא ניתן לקרוא את הקובץ: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "שם התצוגה אינו יכול להיות ריק."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "שם תצוגה:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "עריכת אתר"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "העריכה בוטלה"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "עורך פריט: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "פריטים"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "הפריט נוסף בהצלחה"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "הפריט הוסר: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "הפריט עודכן בהצלחה"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "שגיאה"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "הוספת האתר נכשלה. ייתכן שהוא כבר קיים."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "הסרת הפריט נכשלה"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "הסרת האתר נכשלה"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "שמירת ההגדרות נכשלה (שגיאת הרשאות או דיסק)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "עדכון האתר נכשל. ייתכן ששם התצוגה כבר קיים."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "הייבוא הושלם: {} נוספו, {} דולגו."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "לייבא {} מילים לאתר הנוכחי '{}'?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "מידע"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "ביטוי רגולרי לא תקין: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "הגדרות Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "לא נבחר אתר"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "לא נמצאו רשומות מילים תקינות בקובץ."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "פתח הגדרות (לחיצה בודדת) או הוסף אתר חדש (לחיצה כפולה)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "הפריט המקורי לא נמצא"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "תבנית:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "נא להזין תבנית"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "נא לבחור אתר תחילה."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "ביטוי רגולרי (התאמת URL מהתחלה)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "החלפה:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "בחר קובץ JSON לייבוא"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "דף בודד בלבד"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "רשימת אתרים"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "האתר לא נמצא"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "האתר הוסר: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "הקובץ שנבחר אינו נראה כקובץ הגדרות תקין של Invisible."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "שילוב זה של תבנית/ביטוי רגולרי כבר קיים"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "כתובת ה-URL אינה יכולה להיות ריקה."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "שגיאה בלתי צפויה: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "השתמש כביטוי רגולרי"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "כל האתר (דומיין)"

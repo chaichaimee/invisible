@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "เ&พิ่ม"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&ยกเลิก"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&ปิด"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "แ&ก้ไข"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "แ&ก้ไขเว็บไซต์"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "แ&ก้ไขคำศัพท์"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&นำเข้าจากไฟล์..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&ตกลง"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&ลบออก"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&ลบเว็บไซต์ออก"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&ลบคำศัพท์ออก"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&บันทึก"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&อัปเดต"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "เพิ่มเว็บไซต์ใหม่"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "นำไปใช้กับ:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบ '{}' ออก?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "ไม่สามารถดึง URL ได้ กรุณาตรวจสอบว่าคุณอยู่ในบราวเซอร์"
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "ยืนยันการนำเข้า"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "ยืนยันการลบออก"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "ไม่สามารถอ่านไฟล์ได้: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "ชื่อที่แสดงต้องไม่ว่างเปล่า"
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "ชื่อที่แสดง:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "แก้ไขเว็บไซต์"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "ยกเลิกการแก้ไข"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "กำลังแก้ไขรายการ: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "รายการ"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "เพิ่มรายการเรียบร้อยแล้ว"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "ลบรายการออกแล้ว: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "อัปเดตรายการเรียบร้อยแล้ว"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "ข้อผิดพลาด"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "เพิ่มเว็บไซต์ไม่สำเร็จ รายการนี้อาจมีอยู่แล้ว"
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "ลบรายการไม่สำเร็จ"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "ลบเว็บไซต์ไม่สำเร็จ"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "บันทึกการตั้งค่าไม่สำเร็จ (เกิดข้อผิดพลาดเกี่ยวกับสิทธิ์หรือดิสก์)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "อัปเดตเว็บไซต์ไม่สำเร็จ ชื่อที่แสดงอาจมีอยู่แล้ว"
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "นำเข้าเสร็จสิ้น: เพิ่มแล้ว {}, ข้ามไป {}"
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "นำเข้า {} คำศัพท์ไปยังเว็บไซต์ '{}' ปัจจุบันหรือไม่?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "ข้อมูล"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "รูปแบบ Regular Expression ไม่ถูกต้อง: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "การตั้งค่า Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "ยังไม่ได้เลือกเว็บไซต์"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "ไม่พบรายการคำศัพท์ที่ถูกต้องในไฟล์"
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "เปิดการตั้งค่า Invisible (แตะครั้งเดียว) หรือเพิ่มเว็บไซต์ใหม่ (แตะสองครั้ง)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "ไม่พบรายการเดิม"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "รูปแบบ (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "กรุณาระบุรูปแบบ"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "กรุณาเลือกเว็บไซต์ก่อน"
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "นิพจน์เรกูลาร์ (จับคู่ URL ตั้งแต่เริ่มต้น)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "คำที่แทนที่:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "เลือกไฟล์ JSON ที่จะนำเข้า"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "เฉพาะหน้าเดียว"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "รายชื่อเว็บไซต์"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "ไม่พบเว็บไซต์"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "ลบเว็บไซต์ออกแล้ว: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "ไฟล์ที่เลือกไม่ใช่ไฟล์ตั้งค่าเว็บไซต์ของ Invisible ที่ถูกต้อง"
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "รูปแบบหรือ Regex นี้มีอยู่แล้วในระบบ"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "ช่อง URL ต้องไม่ว่างเปล่า"
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "เกิดข้อผิดพลาดที่ไม่คาดคิด: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "ใช้เป็น Regular Expression"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "ทั้งเว็บไซต์ (โดเมน)"

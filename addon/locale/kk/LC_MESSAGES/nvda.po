@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Kazakh\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "Қосу (&A)"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "Бас тарту (&C)"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "Жабу (&C)"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "Өңдеу (&E)"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "Сайтты өңдеу (&E)"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "Сөзді өңдеу (&E)"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "Файлдан импорттау... (&I)"
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&ОК"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "Өшіру (&R)"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "Сайтты өшіру (&R)"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "Сөзді өшіру (&R)"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "Сақтау (&S)"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "Жаңарту (&U)"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Жаңа сайт қосу"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Келесіге қолдану:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "'{}' нысанын өшіруді растайсыз ба?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL мекенжайын алу мүмкін емес. Браузерде екеніңізге көз жеткізіңіз."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Импорттауды растау"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Өшіруді растау"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Файлды оқу мүмкін болмады: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Көрсетілетін атау бос болмауы керек."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Көрсетілетін атау:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Сайтты өңдеу"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Өңдеуден бас тартылды"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Жазбаны өңдеу: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Жазбалар"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Жазба сәтті қосылды"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Жазба өшірілді: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Жазба сәтті жаңартылды"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Қате"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Сайтты қосу сәтсіз аяқталды. Ол бұрыннан бар болуы мүмкін."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Жазбаны өшіру сәтсіз аяқталды"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Сайтты өшіру сәтсіз аяқталды"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Конфигурацияны сақтау сәтсіз аяқталды (рұқсат немесе диск қатесі)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Сайтты жаңарту сәтсіз аяқталды. Көрсетілетін атау бұрыннан бар болуы мүмкін."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Импортталды: {} қосылды, {} өткізілді."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "{} сөзді ағымдағы '{}' сайтына импорттау керек пе?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Ақпарат"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Жарамсыз тұрақты өрнек: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible баптаулары"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Сайт таңдалмады"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Файлдан жарамды сөз жазбалары табылмады."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Баптауларды ашу (бір рет басу) немесе Сайт қосу (екі рет басу)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Түпнұсқа жазба табылмады"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Үлгі:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Үлгіні енгізіңіз"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Алдымен сайтты таңдаңыз."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Тұрақты өрнек"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Тұрақты өрнек (URL-ді басынан сәйкестендіру)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Алмастыру:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Импорттау үшін JSON файлын таңдаңыз"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Тек бір бет"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Сайттар тізімі"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Сайт табылмады"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Сайт өшірілді: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Таңдалған файл Invisible баптау файлына ұқсамайды."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Бұл үлгі мен тұрақты өрнек тіркесімі бұрыннан бар"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL мекенжайы бос болмауы керек."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Күтпеген қате: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Тұрақты өрнек ретінде қолдану"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Бүкіл веб-сайт (домен)"

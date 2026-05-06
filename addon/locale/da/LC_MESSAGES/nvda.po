@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Danish\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&Tilføj"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Annuller"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Luk"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&Rediger"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "Rediger &websted"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "Rediger &ord"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Importer fra fil..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&Fjern"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "Fjern webst&ed"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "Fjern o&rd"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&Gem"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Opdater"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Tilføj nyt websted"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Anvend på:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Er du sikker på, at du vil fjerne '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Kan ikke fange URL. Sørg for, at du er i en browser."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Bekræft import"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Bekræft fjernelse"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Kunne ikke læse filen: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "Visningsnavn må ikke være tomt."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Visningsnavn:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Rediger websted"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Redigering annulleret"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Redigerer indtastning: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Indtastninger"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Indtastning tilføjet"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Indtastning fjernet: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Indtastning opdateret"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Fejl"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Kunne ikke tilføje websted. Det findes muligvis allerede."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Kunne ikke fjerne indtastning"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Kunne ikke fjerne websted"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Kunne ikke gemme konfiguration (tilladelse eller diskfejl)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Kunne ikke opdatere websted. Visningsnavnet findes muligvis allerede."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Import fuldført: {} tilføjet, {} sprunget over."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Importer {} ord til det nuværende websted '{}'?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Information"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Ugyldigt regulært udtryk: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Indstillinger for Invisible"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Intet websted valgt"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Ingen gyldige ord fundet i filen."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Åbn indstillinger (ét tryk) eller Tilføj websted (to tryk)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Oprindelig indtastning ikke fundet"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Mønster:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Indtast venligst et mønster"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Vælg venligst et websted først."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Regulært udtryk (match URL fra starten)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Erstatning:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Vælg en JSON-fil til import"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Kun enkelt side"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Webstedsliste"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Websted ikke fundet"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Websted fjernet: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "Den valgte fil synes ikke at være en gyldig konfiguration til Invisible."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Denne kombination af mønster/regex findes allerede"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL må ikke være tom."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Uventet fejl: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Brug som regulært udtryk"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Hele webstedet (domæne)"

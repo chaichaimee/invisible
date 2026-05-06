@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Tamil\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&சேர்"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&ரத்து செய்"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&மூடு"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&தொகு"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&தளத்தைத் தொகு"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&சொல்லைத் தொகு"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&கோப்பிலிருந்து இறக்குமதி செய்..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&சரி"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&நீக்கு"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&தளத்தை நீக்கு"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&சொல்லை நீக்கு"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&சேமி"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&புதுப்பி"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "புதிய தளத்தைச் சேர்"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "இதற்குப் பயன்படுத்து:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "'{}' ஐ நீக்குவதில் உறுதியாக இருக்கிறீர்களா?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL ஐப் பிடிக்க முடியவில்லை. உலாவியில் இருப்பதை உறுதி செய்யவும்."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "இறக்குமதியை உறுதிப்படுத்து"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "நீக்கத்தை உறுதிப்படுத்து"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "கோப்பை வாசிக்க முடியவில்லை: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "காட்சிப் பெயர் காலியாக இருக்கக்கூடாது."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "காட்சிப் பெயர்:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "தளத்தைத் தொகு"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "தொகுத்தல் ரத்து செய்யப்பட்டது"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "பதிவைத் தொகுக்கிறது: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "பதிவுகள்"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "பதிவு வெற்றிகரமாகச் சேர்க்கப்பட்டது"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "பதிவு நீக்கப்பட்டது: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "பதிவு வெற்றிகரமாகப் புதுப்பிக்கப்பட்டது"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "பிழை"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "தளத்தைச் சேர்ப்பதில் தோல்வி. அது ஏற்கனவே இருக்கலாம்."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "பதிவை நீக்குவதில் தோல்வி"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "தளத்தை நீக்குவதில் தோல்வி"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "அமைப்பைச் சேமிப்பதில் தோல்வி (அனுமதி அல்லது வட்டு பிழை)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "தளத்தைப் புதுப்பிப்பதில் தோல்வி. காட்சிப் பெயர் ஏற்கனவே இருக்கலாம்."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "இறக்குமதி முடிந்தது: {} சேர்க்கப்பட்டது, {} தவிர்க்கப்பட்டது."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "தற்போதைய தளமான '{}' இல் {} சொற்களை இறக்குமதி செய்யவா?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "தகவல்"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "தவறான வழக்கமான வெளிப்பாடு (Regex): {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible அமைப்புகள்"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "தளம் எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "கோப்பில் முறையான சொற்பதிவுகள் எதுவும் இல்லை."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Invisible அமைப்புகளைத் திற (ஒரு முறை தட்டு) அல்லது புதிய தளத்தைச் சேர் (இரு முறை தட்டு)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "அசல் பதிவு காணப்படவில்லை"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "மாதிரி (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "தயவுசெய்து ஒரு மாதிரியை உள்ளிடவும்"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "தயவுசெய்து முதலில் ஒரு தளத்தைத் தேர்ந்தெடுக்கவும்."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "வழக்கமான வெளிப்பாடு (தொடக்கத்திலிருந்தே URL ஐப் பொருத்து)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "மாற்றீடு:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "இறக்குமதி செய்ய JSON கோப்பைத் தேர்ந்தெடுக்கவும்"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "ஒற்றைப் பக்கம் மட்டும்"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "தளப் பட்டியல்"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "தளம் காணப்படவில்லை"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "தளம் நீக்கப்பட்டது: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்பு முறையான Invisible தள அமைப்பாகத் தெரியவில்லை."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "இந்த மாதிரி/regex சேர்க்கை ஏற்கனவே உள்ளது"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL காலியாக இருக்கக்கூடாது."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "எதிர்பாராத பிழை: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "வழக்கமான வெளிப்பாடாகப் பயன்படுத்து"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "முழு இணையதளம் (டொமைன்)"

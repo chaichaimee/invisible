@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Sinhala\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "&එක් කරන්න"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&අවලංගු කරන්න"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&වසා දමන්න"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "&සංස්කරණය"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "&අඩවිය සංස්කරණය"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "&වචනය සංස්කරණය"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&ගොනුවෙන් ආනයනය කරන්න..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&හරි"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "&ඉවත් කරන්න"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "&අඩවිය ඉවත් කරන්න"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "&වචනය ඉවත් කරන්න"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "&සුරකින්න"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&යාවත්කාලීන කරන්න"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "නව අඩවියක් එක් කරන්න"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "යොමු කරන්න:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "ඔබට විශ්වාසද ඔබ '{}' ඉවත් කිරීමට අවශ්‍ය බව?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "URL එක ලබා ගත නොහැක. ඔබ බ්‍රව්සරයක සිටින බව තහවුරු කරගන්න."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "ආනයනය තහවුරු කරන්න"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "ඉවත් කිරීම තහවුරු කරන්න"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "ගොනුව කියවිය නොහැක: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "පෙන්වන නම හිස් විය නොහැක."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "පෙන්වන නම:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "අඩවිය සංස්කරණය"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "සංස්කරණය අවලංගුයි"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "ඇතුළත් කිරීම සංස්කරණය වෙමින්: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "ඇතුළත් කිරීම්"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "ඇතුළත් කිරීම සාර්ථකව එක් කරන ලදී"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "ඇතුළත් කිරීම ඉවත් කරන ලදී: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "ඇතුළත් කිරීම සාර්ථකව යාවත්කාලීන කරන ලදී"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "දෝෂයකි"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "අඩවිය එක් කිරීමට අපොහොසත් විය. එය දැනටමත් තිබිය හැක."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "ඇතුළත් කිරීම ඉවත් කිරීමට අපොහොසත් විය"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "අඩවිය ඉවත් කිරීමට අපොහොසත් විය"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "වින්‍යාසය සුරැකීමට අපොහොසත් විය (අවසර හෝ තැටි දෝෂයකි)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "අඩවිය යාවත්කාලීන කිරීමට අපොහොසත් විය. පෙන්වන නම දැනටමත් තිබිය හැක."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "ආනයනය අවසන්: {} එක් කරන ලදී, {} මග හරින ලදී."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "වචන {} ප්‍රමාණයක් '{}' යන වර්තමාන අඩවියට ආනයනය කරන්නද?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "තොරතුරු"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "වලංගු නොවන Regular Expression: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible සැකසුම්"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "අඩවියක් තෝරා නැත"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "ගොනුවේ වලංගු වචන ඇතුළත් කිරීම් හමු නොවීය."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Invisible සැකසුම් විවෘත කරන්න (තනි තට්ටුවක්) හෝ නව අඩවියක් එක් කරන්න (ද්විත්ව තට්ටුවක්)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "මුල් ඇතුළත් කිරීම හමු නොවීය"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "රටාව (Pattern):"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "කරුණාකර රටාවක් ඇතුළත් කරන්න"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "කරුණාකර පළමුව අඩවියක් තෝරන්න."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Regular expression (ආරම්භයේ සිට URL ගැලපීම)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "ප්‍රතිස්ථාපනය:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "ආනයනය සඳහා JSON ගොනුවක් තෝරන්න"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "එක් පිටුවක් පමණි"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "අඩවි ලැයිස්තුව"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "අඩවිය හමු නොවීය"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "අඩවිය ඉවත් කරන ලදී: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "තෝරාගත් ගොනුව වලංගු Invisible අඩවි වින්‍යාසයක් ලෙස නොපෙනේ."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "මෙම රටාව/regex සංකලනය දැනටමත් පවතී"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "URL එක හිස් විය නොහැක."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "අනපේක්ෂිත දෝෂයකි: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Regular expression ලෙස භාවිතා කරන්න"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "සම්පූර්ණ වෙබ් අඩවිය (ඩොමේනය)"

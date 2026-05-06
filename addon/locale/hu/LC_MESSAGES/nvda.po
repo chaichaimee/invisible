@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invisible 2026.5.1\n"
+"Report-Msgid-Bugs-To: chaicm75@gmail.com\n"
+"POT-Creation-Date: 2026-05-06 09:50+0700\n"
+"PO-Revision-Date: 2026-05-06 10:15+0700\n"
+"Last-Translator: chaiBot and Malee Yamazaki\n"
+"Language-Team: Hungarian\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: DevOn Addon\n"
+
+#: gui.py:102
+#: gui.py:214
+msgid "&Add"
+msgstr "Hozzá&adás"
+
+#: gui.py:105
+#: gui.py:576
+msgid "&Cancel"
+msgstr "&Mégse"
+
+#: gui.py:121
+msgid "&Close"
+msgstr "&Bezárás"
+
+#: gui.py:103
+msgid "&Edit"
+msgstr "Szer&kesztés"
+
+#: gui.py:257
+msgid "&Edit Site"
+msgstr "Oldal s&zerkesztése"
+
+#: gui.py:398
+msgid "&Edit Word"
+msgstr "Szó s&zerkesztése"
+
+#: gui.py:119
+msgid "&Import from file..."
+msgstr "&Importálás fájlból..."
+
+#: gui.py:120
+msgid "&OK"
+msgstr "&OK"
+
+#: gui.py:104
+msgid "&Remove"
+msgstr "Eltá&volítás"
+
+#: gui.py:258
+msgid "&Remove Site"
+msgstr "Oldal eltá&volítása"
+
+#: gui.py:399
+msgid "&Remove Word"
+msgstr "Szó eltá&volítása"
+
+#: gui.py:575
+msgid "&Save"
+msgstr "Menté&s"
+
+#: gui.py:208
+msgid "&Update"
+msgstr "&Frissítés"
+
+#: gui.py:521
+msgid "Add New Site"
+msgstr "Új oldal hozzáadása"
+
+#: gui.py:560
+msgid "Apply to:"
+msgstr "Alkalmazás:"
+
+#: gui.py:292
+#: gui.py:495
+msgid "Are you sure you want to remove '{}'?"
+msgstr "Biztosan el akarja távolítani: '{}'?"
+
+#: __init__.py:143
+msgid "Cannot capture URL. Make sure you are in a browser."
+msgstr "Nem sikerült az URL beolvasása. Ellenőrizze, hogy böngészőt használ-e."
+
+#: gui.py:369
+msgid "Confirm Import"
+msgstr "Importálás megerősítése"
+
+#: gui.py:293
+#: gui.py:496
+msgid "Confirm Removal"
+msgstr "Eltávolítás megerősítése"
+
+#: gui.py:339
+msgid "Could not read file: {}"
+msgstr "Nem sikerült a fájl beolvasása: {}"
+
+#: gui.py:640
+msgid "Display name cannot be empty."
+msgstr "A megjelenítendő név nem lehet üres."
+
+#: gui.py:546
+msgid "Display name:"
+msgstr "Megjelenítendő név:"
+
+#: gui.py:521
+msgid "Edit Site"
+msgstr "Oldal szerkesztése"
+
+#: gui.py:483
+msgid "Edit cancelled"
+msgstr "Szerkesztés megszakítva"
+
+#: gui.py:479
+msgid "Editing entry: {}"
+msgstr "Bejegyzés szerkesztése: {}"
+
+#: gui.py:78
+msgid "Entries"
+msgstr "Bejegyzések"
+
+#: gui.py:458
+msgid "Entry added successfully"
+msgstr "Bejegyzés sikeresen hozzáadva"
+
+#: gui.py:504
+msgid "Entry removed: {}"
+msgstr "Bejegyzés eltávolítva: {}"
+
+#: gui.py:448
+msgid "Entry updated successfully"
+msgstr "Bejegyzés sikeresen frissítve"
+
+#: gui.py:280
+#: gui.py:339
+#: gui.py:344
+#: gui.py:640
+#: gui.py:643
+#: gui.py:651
+#: gui.py:658
+msgid "Error"
+msgstr "Hiba"
+
+#: gui.py:658
+msgid "Failed to add site. It may already exist."
+msgstr "Nem sikerült az oldal hozzáadása. Lehet, hogy már létezik."
+
+#: gui.py:507
+msgid "Failed to remove entry"
+msgstr "Nem sikerült a bejegyzés eltávolítása"
+
+#: gui.py:316
+msgid "Failed to remove site"
+msgstr "Nem sikerült az oldal eltávolítása"
+
+#: manager.py:300
+#: manager.py:328
+msgid "Failed to save configuration (permission or disk error)"
+msgstr "Nem sikerült a beállítások mentése (jogosultsági vagy lemezhiba)"
+
+#: gui.py:651
+msgid "Failed to update site. The display name might already exist."
+msgstr "Nem sikerült az oldal frissítése. A megjelenítendő név már létezhet."
+
+#: gui.py:392
+msgid "Import completed: {} added, {} skipped."
+msgstr "Importálás befejeződött: {} hozzáadva, {} kihagyva."
+
+#: gui.py:366
+msgid "Import {} word(s) into the current site '{}'?"
+msgstr "Importál {} szót a(z) '{}' oldalhoz?"
+
+#: gui.py:362
+msgid "Information"
+msgstr "Információ"
+
+#: gui.py:433
+msgid "Invalid Regular Expression: {}"
+msgstr "Érvénytelen reguláris kifejezés: {}"
+
+#: __init__.py:24
+#: __init__.py:125
+msgid "Invisible"
+msgstr "Invisible"
+
+#: gui.py:21
+msgid "Invisible Settings"
+msgstr "Invisible beállítások"
+
+#: gui.py:427
+msgid "No site selected"
+msgstr "Nincs oldal kiválasztva"
+
+#: gui.py:362
+msgid "No valid word entries found in the file."
+msgstr "Nem található érvényes szóbejegyzés a fájlban."
+
+#: __init__.py:123
+msgid "Open Invisible settings (single tap) or Add new site (double tap)"
+msgstr "Beállítások megnyitása (egy koppintás) vagy Új oldal hozzáadása (dupla koppintás)"
+
+#: manager.py:317
+msgid "Original entry not found"
+msgstr "Az eredeti bejegyzés nem található"
+
+#: gui.py:85
+msgid "Pattern:"
+msgstr "Minta:"
+
+#: gui.py:424
+msgid "Please enter a pattern"
+msgstr "Adjon meg egy mintát"
+
+#: gui.py:322
+msgid "Please select a site first."
+msgstr "Először válasszon ki egy oldalt."
+
+#: manager.py:269
+#: manager.py:271
+msgid "Regex"
+msgstr "Regex"
+
+#: gui.py:566
+msgid "Regular expression (match URL from start)"
+msgstr "Reguláris kifejezés (URL illesztése az elejétől)"
+
+#: gui.py:91
+msgid "Replacement:"
+msgstr "Csere:"
+
+#: gui.py:327
+msgid "Select a JSON file to import"
+msgstr "Válassza ki az importálandó JSON fájlt"
+
+#: gui.py:564
+msgid "Single page only"
+msgstr "Csak egyetlen oldal"
+
+#: gui.py:71
+msgid "Site List"
+msgstr "Oldallista"
+
+#: manager.py:290
+#: manager.py:308
+msgid "Site not found"
+msgstr "Az oldal nem található"
+
+#: gui.py:314
+msgid "Site removed: {}"
+msgstr "Oldal eltávolítva: {}"
+
+#: gui.py:344
+msgid "The selected file does not appear to be a valid Invisible site configuration."
+msgstr "A kiválasztott fájl nem tűnik érvényes Invisible beállító fájlnak."
+
+#: manager.py:295
+#: manager.py:321
+msgid "This pattern/regex combination already exists"
+msgstr "Ez a minta/regex kombináció már létezik"
+
+#: gui.py:643
+msgid "URL cannot be empty."
+msgstr "Az URL nem lehet üres."
+
+#: gui.py:553
+msgid "URL:"
+msgstr "URL:"
+
+#: gui.py:464
+msgid "Unexpected error: {}"
+msgstr "Váratlan hiba: {}"
+
+#: gui.py:97
+msgid "Use as regular expression"
+msgstr "Használat reguláris kifejezésként"
+
+#: gui.py:565
+msgid "Whole website (domain)"
+msgstr "Teljes weboldal (tartomány)"
