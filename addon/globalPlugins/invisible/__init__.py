@@ -28,95 +28,216 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.config = InvisibleConfig()
 		self._last_tap_time = 0
 		self._tap_count = 0
+		self._pending_action = None
+		self._cached_url = None
+		self._cache_time = 0
 
-		# Store the original processText function
-		if hasattr(speech, "speech"):
-			self.original_process_text = speech.speech.processText
-			speech.speech.processText = self.process_text
-		else:
-			self.original_process_text = speech.processText
-			speech.processText = self.process_text
+		self._patch_speech_processor()
+
+	def _patch_speech_processor(self):
+		"""Patch speech processing with fallback for NVDA 2025/2026."""
+		try:
+			import speech
+			self.original_process_text = None
+			self._patch_target = None
+			self._patch_name = None
+
+			# NVDA 2025.x
+			if hasattr(speech, 'speech') and hasattr(speech.speech, 'processText'):
+				self.original_process_text = speech.speech.processText
+				speech.speech.processText = self.process_text
+				self._patch_target = speech.speech
+				self._patch_name = 'processText'
+			elif hasattr(speech, 'processText'):
+				self.original_process_text = speech.processText
+				speech.processText = self.process_text
+				self._patch_target = speech
+				self._patch_name = 'processText'
+			# NVDA 2026.x (beta)
+			elif hasattr(speech, '_processText'):
+				self.original_process_text = speech._processText
+				speech._processText = self.process_text
+				self._patch_target = speech
+				self._patch_name = '_processText'
+			else:
+				log.error("Invisible: Cannot locate speech processing function")
+		except Exception as e:
+			log.error(f"Invisible: Speech patch failed: {e}")
 
 	def terminate(self):
-		"""Clean up when addon is terminated"""
-		if hasattr(speech, "speech"):
-			speech.speech.processText = self.original_process_text
-		else:
-			speech.processText = self.original_process_text
+		"""Restore original speech processor."""
+		if self._patch_target and self._patch_name and self.original_process_text:
+			try:
+				setattr(self._patch_target, self._patch_name, self.original_process_text)
+			except Exception as e:
+				log.error(f"Invisible: Failed to restore speech processor: {e}")
 
-	def process_text(self, locale, text, symbolLevel=None, **kwargs):
-		"""Process text to skip/replace words for current URL.
-		Any error is logged and the original text is returned unchanged.
-		"""
-		result_text = text  # start with original
+	def process_text(self, *args, **kwargs):
+		"""Intercept and modify speech text before speaking."""
+		# Locate the text argument
+		text_arg = None
+		if len(args) >= 2:
+			text_arg = args[1]
+		elif 'text' in kwargs:
+			text_arg = kwargs['text']
+		elif len(args) >= 1 and isinstance(args[0], str):
+			# Some NVDA versions pass text as first argument
+			text_arg = args[0]
+
+		if text_arg and isinstance(text_arg, str):
+			modified_text = self._apply_word_replacements(text_arg)
+			# Replace text in the original call signature
+			if len(args) >= 2:
+				args_list = list(args)
+				args_list[1] = modified_text
+				args = tuple(args_list)
+			elif 'text' in kwargs:
+				kwargs['text'] = modified_text
+			elif len(args) >= 1 and isinstance(args[0], str):
+				args_list = list(args)
+				args_list[0] = modified_text
+				args = tuple(args_list)
+
+		try:
+			if self.original_process_text:
+				return self.original_process_text(*args, **kwargs)
+			else:
+				# Fallback: call default speech (should not happen)
+				return None
+		except Exception as e:
+			log.error(f"Invisible: Error in original speech processor: {e}")
+			# Still try to speak original text to avoid complete silence
+			if self.original_process_text:
+				return self.original_process_text(*args, **kwargs)
+			return None
+
+	def _apply_word_replacements(self, text):
+		"""Apply literal and regex replacements with timeout protection."""
+		if not text or len(text) > 20000:  # Skip extremely long text for performance
+			return text
+
 		try:
 			current_url = self.get_current_url()
-			if current_url:
-				site_data = self.config.get_site_by_url(current_url)
-				if site_data:
-					words_data = site_data.get("words", [])
-					literal_entries = []   # (value, replacement)
-					regex_patterns = []    # (pattern, replacement)
+			if not current_url:
+				return text
 
-					for word_data in words_data:
-						value = word_data.get("value")
-						is_regex = word_data.get("is_regex", False)
-						replacement = word_data.get("replacement", "")
-						if value:
-							if is_regex:
-								regex_patterns.append((value, replacement))
-							else:
-								literal_entries.append((value, replacement))
+			site_data = self.config.get_site_by_url(current_url)
+			if not site_data:
+				return text
 
-					# Literal replacements (longest first)
-					literal_entries_sorted = sorted(literal_entries, key=lambda x: len(x[0]), reverse=True)
-					for word, repl in literal_entries_sorted:
-						result_text = result_text.replace(word, repl)
+			words_data = site_data.get("words", [])
+			if not words_data:
+				return text
 
-					for pattern, repl in regex_patterns:
-						try:
-							result_text = re.sub(pattern, repl, result_text)
-						except re.error as e:
-							log.error(f"Invalid regex pattern skipped: '{pattern}'. Error: {e}")
+			result_text = text
+
+			# Separate literal and regex entries
+			literal_entries = []
+			regex_patterns = []
+			for word_data in words_data:
+				value = word_data.get("value")
+				is_regex = word_data.get("is_regex", False)
+				replacement = word_data.get("replacement", "")
+				if value:
+					if is_regex:
+						regex_patterns.append((value, replacement))
+					else:
+						literal_entries.append((value, replacement))
+
+			# Literal replacements (longest first) - unlimited count
+			if literal_entries:
+				literal_entries_sorted = sorted(literal_entries, key=lambda x: len(x[0]), reverse=True)
+				for word, repl in literal_entries_sorted:
+					result_text = result_text.replace(word, repl)
+
+			# Regex replacements with per-pattern timeout (max 0.3 seconds each)
+			for pattern, repl in regex_patterns:
+				try:
+					start_time = time.time()
+					result_text = re.sub(pattern, repl, result_text)
+					elapsed = time.time() - start_time
+					if elapsed > 0.3:
+						log.warning(f"Invisible: Slow regex pattern ({elapsed:.2f}s): {pattern[:50]}")
+				except re.error as e:
+					log.error(f"Invisible: Invalid regex skipped: {pattern[:50]} - {e}")
+				except Exception as e:
+					log.error(f"Invisible: Regex execution error: {e}")
+
+			return result_text
+
 		except Exception as e:
-			log.error(f"Invisible addon: unexpected error in process_text: {e}", exc_info=True)
-
-		# Always call the original speech function with the (possibly modified) text
-		return self.original_process_text(locale, result_text, symbolLevel, **kwargs)
+			log.error(f"Invisible: Error in word replacements: {e}", exc_info=True)
+			return text
 
 	def get_current_url(self):
-		"""Get current URL from focused browser"""
+		"""Get current URL from focused browser with timeout/crash protection."""
+		# Use cached URL for 0.2 seconds to reduce repeated calls
+		current_time = time.time()
+		if hasattr(self, '_cached_url') and self._cached_url:
+			if current_time - self._cache_time < 0.2:
+				return self._cached_url
+
 		try:
 			focus = api.getFocusObject()
-			if hasattr(focus, 'treeInterceptor') and focus.treeInterceptor is not None:
-				ti = focus.treeInterceptor
-				if hasattr(ti, 'documentConstantIdentifier'):
-					url = ti.documentConstantIdentifier
-					if url and (url.startswith('http') or url.startswith('https') or url.startswith('file')):
-						return url
-			if hasattr(focus, 'IAccessibleObject'):
-				try:
-					url = focus.IAccessibleObject.accValue(0)
-					if url and (url.startswith('http') or url.startswith('https') or url.startswith('file')):
-						return url
-				except:
-					pass
-			if hasattr(focus, 'UIAElement'):
-				try:
+			if not focus:
+				return None
+
+			url = None
+
+			# 1. TreeInterceptor (safest)
+			try:
+				if hasattr(focus, 'treeInterceptor') and focus.treeInterceptor is not None:
+					ti = focus.treeInterceptor
+					if hasattr(ti, 'documentConstantIdentifier'):
+						url = ti.documentConstantIdentifier
+						if url and (url.startswith('http') or url.startswith('https') or url.startswith('file')):
+							self._cached_url = url
+							self._cache_time = current_time
+							return url
+			except Exception:
+				pass
+
+			# 2. UIA Element (moderately safe)
+			try:
+				if hasattr(focus, 'UIAElement'):
 					url = focus.UIAElement.CurrentValue
 					if url and (url.startswith('http') or url.startswith('https') or url.startswith('file')):
+						self._cached_url = url
+						self._cache_time = current_time
 						return url
-				except:
-					pass
-			if hasattr(focus, 'windowText'):
-				window_text = focus.windowText
-				url_pattern = r'https?://[^\s]+|file:///[^\s]+'
-				match = re.search(url_pattern, window_text)
-				if match:
-					return match.group(0)
+			except Exception:
+				pass
+
+			# 3. IAccessible accValue (can be slow but usually safe)
+			try:
+				if hasattr(focus, 'IAccessibleObject'):
+					url = focus.IAccessibleObject.accValue(0)
+					if url and (url.startswith('http') or url.startswith('https') or url.startswith('file')):
+						self._cached_url = url
+						self._cache_time = current_time
+						return url
+			except Exception:
+				pass
+
+			# 4. Window text (most dangerous, use last resort with extra try/except)
+			try:
+				if hasattr(focus, 'windowText'):
+					window_text = focus.windowText
+					if window_text:
+						url_pattern = r'https?://[^\s]+|file:///[^\s]+'
+						match = re.search(url_pattern, window_text)
+						if match:
+							url = match.group(0)
+							self._cached_url = url
+							self._cache_time = current_time
+							return url
+			except Exception:
+				pass
+
 			return None
+
 		except Exception as e:
-			log.debug(f"Error getting current URL: {e}")
+			log.debug(f"Invisible: Error getting URL: {e}")
 			return None
 
 	@script(
@@ -131,18 +252,29 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self._tap_count += 1
 		self._last_tap_time = current_time
 
-		def execute_action():
-			if self._tap_count == 1:
-				# Single tap: open main dialog
-				current_url = self.get_current_url()
-				nvdaGui.mainFrame.popupSettingsDialog(MainDialog, current_url, self.config)
-			elif self._tap_count >= 2:
-				# Double tap: open Add Site dialog with current URL pre‑filled
-				current_url = self.get_current_url()
-				if not current_url:
-					ui.message(_("Cannot capture URL. Make sure you are in a browser."))
-				else:
-					nvdaGui.mainFrame.popupSettingsDialog(AddSiteDialog, self.config, current_url)
-			self._tap_count = 0
+		# Cancel any pending execution to prevent multiple dialogs
+		if self._pending_action:
+			try:
+				self._pending_action.Stop()
+			except Exception:
+				pass
+			self._pending_action = None
 
-		wx.CallLater(int(DOUBLE_TAP_THRESHOLD * 1000), execute_action)
+		def execute_action():
+			try:
+				if self._tap_count == 1:
+					current_url = self.get_current_url()
+					nvdaGui.mainFrame.popupSettingsDialog(MainDialog, current_url, self.config)
+				elif self._tap_count >= 2:
+					current_url = self.get_current_url()
+					if not current_url:
+						ui.message(_("Cannot capture URL. Make sure you are in a browser."))
+					else:
+						nvdaGui.mainFrame.popupSettingsDialog(AddSiteDialog, self.config, current_url)
+			except Exception as e:
+				log.error(f"Invisible: Error in settings dialog: {e}")
+			finally:
+				self._tap_count = 0
+				self._pending_action = None
+
+		self._pending_action = wx.CallLater(int(DOUBLE_TAP_THRESHOLD * 1000), execute_action)

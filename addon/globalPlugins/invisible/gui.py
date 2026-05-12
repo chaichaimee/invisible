@@ -26,7 +26,6 @@ class MainDialog(wx.Dialog):
 		self.current_site_id = None
 		self.editing_word_data = None
 
-		# Determine the site that matches the current URL
 		existing_site = self.config.get_site_by_url(current_url)
 		if existing_site:
 			self.current_site_id = existing_site["display_name"]
@@ -46,12 +45,9 @@ class MainDialog(wx.Dialog):
 		self._initUI()
 		self._bindEvents()
 		self.Centre()
-
-		# Focus on the entries list as requested
 		wx.CallAfter(self.wordsList.SetFocus)
 
 	def _create_display_name(self, url):
-		"""Create a display name from URL."""
 		try:
 			domain = self.config._extract_domain(url)
 			if domain:
@@ -67,37 +63,31 @@ class MainDialog(wx.Dialog):
 	def _initUI(self):
 		mainSizer = wx.BoxSizer(wx.VERTICAL)
 
-		# Site List Section (only the list, no edit fields)
 		siteBox = wx.StaticBoxSizer(wx.VERTICAL, self, label=_("Site List"))
 		self.siteList = wx.ListBox(self, style=wx.LB_SINGLE, size=(-1, 100))
 		self._load_site_list()
 		siteBox.Add(self.siteList, 1, wx.EXPAND | wx.ALL, 5)
 		mainSizer.Add(siteBox, 1, wx.EXPAND | wx.ALL, 5)
 
-		# Entries Section
 		entriesBox = wx.StaticBoxSizer(wx.VERTICAL, self, label=_("Entries"))
 
 		self.wordsList = wx.ListBox(self, style=wx.LB_SINGLE, size=(-1, 150))
 		self._update_words_list()
 		entriesBox.Add(self.wordsList, 1, wx.EXPAND | wx.ALL, 5)
 
-		# Pattern input
 		entriesBox.Add(wx.StaticText(self, label=_("Pattern:")), 0, wx.ALL, 5)
 		self.wordCtrl = wx.TextCtrl(self)
 		entriesBox.Add(self.wordCtrl, 0, wx.EXPAND | wx.LEFT | wx.RIGHT | wx.TOP, 5)
 
-		# Replacement
 		replacementSizer = wx.BoxSizer(wx.HORIZONTAL)
 		replacementSizer.Add(wx.StaticText(self, label=_("Replacement:")), 0, wx.RIGHT | wx.ALIGN_CENTER_VERTICAL, 5)
 		self.replacementCtrl = wx.TextCtrl(self)
 		replacementSizer.Add(self.replacementCtrl, 1, wx.EXPAND)
 		entriesBox.Add(replacementSizer, 0, wx.EXPAND | wx.LEFT | wx.RIGHT | wx.TOP, 5)
 
-		# Regex checkbox
 		self.regexCheck = wx.CheckBox(self, label=_("Use as regular expression"))
 		entriesBox.Add(self.regexCheck, 0, wx.LEFT | wx.RIGHT | wx.TOP, 5)
 
-		# Word buttons
 		wordBtnSizer = wx.BoxSizer(wx.VERTICAL)
 		self.addUpdateWordBtn = wx.Button(self, label=_("&Add"))
 		self.editWordBtn = wx.Button(self, label=_("&Edit"))
@@ -114,7 +104,6 @@ class MainDialog(wx.Dialog):
 
 		mainSizer.Add(entriesBox, 2, wx.EXPAND | wx.ALL, 5)
 
-		# Button panel (Import, OK, Close)
 		btnSizer = wx.BoxSizer(wx.HORIZONTAL)
 		self.importBtn = wx.Button(self, label=_("&Import from file..."))
 		self.okBtn = wx.Button(self, wx.ID_OK, label=_("&OK"))
@@ -127,8 +116,6 @@ class MainDialog(wx.Dialog):
 
 		self.SetSizer(mainSizer)
 		self.SetSize(600, 650)
-
-		# Select the current site in the list
 		self._select_current_site()
 		self._update_button_states()
 
@@ -146,11 +133,9 @@ class MainDialog(wx.Dialog):
 		self.Bind(wx.EVT_CHECKBOX, self._onRegexCheck, self.regexCheck)
 		self.Bind(wx.EVT_LISTBOX, self._onWordListSelect, self.wordsList)
 
-		# Context menus
 		self.siteList.Bind(wx.EVT_CONTEXT_MENU, self._onSiteListContextMenu)
 		self.wordsList.Bind(wx.EVT_CONTEXT_MENU, self._onWordsListContextMenu)
 
-		# Keyboard Delete key support
 		self.siteList.Bind(wx.EVT_CHAR_HOOK, self._onSiteListKeyDown)
 		self.wordsList.Bind(wx.EVT_CHAR_HOOK, self._onWordsListKeyDown)
 
@@ -225,7 +210,6 @@ class MainDialog(wx.Dialog):
 		self.replacementCtrl.Clear()
 		self._update_button_states()
 
-	# Event handlers
 	def _onSiteSelect(self, evt):
 		if self.editing_word_data:
 			self._cancel_edit_mode()
@@ -252,8 +236,8 @@ class MainDialog(wx.Dialog):
 			return
 		site_id = sites[index][0]
 		menu = wx.Menu()
-		edit_id = wx.NewId()
-		remove_id = wx.NewId()
+		edit_id = wx.ID_ANY
+		remove_id = wx.ID_ANY
 		edit_item = menu.Append(edit_id, _("&Edit Site"))
 		remove_item = menu.Append(remove_id, _("&Remove Site"))
 		self.Bind(wx.EVT_MENU, lambda evt, sid=site_id: self._onEditSite(evt, sid), id=edit_id)
@@ -262,7 +246,6 @@ class MainDialog(wx.Dialog):
 		menu.Destroy()
 
 	def _onEditSite(self, evt, site_id):
-		"""Open edit dialog for the given site_id."""
 		try:
 			dlg = AddSiteDialog(self, self.config, edit_mode=True, site_id=site_id)
 			if dlg.ShowModal() == wx.ID_OK:
@@ -317,7 +300,6 @@ class MainDialog(wx.Dialog):
 		dlg.Destroy()
 
 	def _onImport(self, evt):
-		"""Import words from another JSON file into the currently selected site."""
 		if not self.current_site_id:
 			ui.message(_("Please select a site first."))
 			return
@@ -339,37 +321,29 @@ class MainDialog(wx.Dialog):
 			wx.MessageBox(_("Could not read file: {}").format(str(e)), _("Error"), wx.OK | wx.ICON_ERROR)
 			return
 
-		# Check if the file contains a site configuration (has "words" key)
 		if not isinstance(data, dict) or "words" not in data:
 			wx.MessageBox(_("The selected file does not appear to be a valid Invisible site configuration."), _("Error"), wx.OK | wx.ICON_ERROR)
 			return
 
-		# Normalize words (same as in _load_all_sites)
 		words_to_add = []
 		for item in data["words"]:
 			if isinstance(item, str):
-				# old format: just a string
 				words_to_add.append({WORD_VALUE: item, WORD_IS_REGEX: False, WORD_REPLACEMENT: ""})
 			elif isinstance(item, dict):
-				# ensure replacement field exists
 				if WORD_REPLACEMENT not in item:
 					item[WORD_REPLACEMENT] = ""
 				words_to_add.append(item)
-			else:
-				continue  # skip invalid
 
 		if not words_to_add:
 			wx.MessageBox(_("No valid word entries found in the file."), _("Information"), wx.OK | wx.ICON_INFORMATION)
 			return
 
-		# Confirm with user
 		confirmMsg = _("Import {} word(s) into the current site '{}'?").format(
 			len(words_to_add), self.site_data.get("display_name", self.current_site_id)
 		)
 		if wx.MessageBox(confirmMsg, _("Confirm Import"), wx.YES_NO | wx.ICON_QUESTION) != wx.YES:
 			return
 
-		# Add each word, skip duplicates
 		added = 0
 		skipped = 0
 		for word_data in words_to_add:
@@ -382,11 +356,9 @@ class MainDialog(wx.Dialog):
 				)
 				added += 1
 			except ValueError as e:
-				# Duplicate or other error
 				skipped += 1
 				log.debug("Skipped word during import: {}".format(str(e)))
 
-		# Refresh words list
 		self.words_data = self.config.get_words_for_site(self.current_site_id)
 		self._update_words_list()
 		ui.message(_("Import completed: {} added, {} skipped.").format(added, skipped))
@@ -524,7 +496,7 @@ class AddSiteDialog(wx.Dialog):
 		self.edit_mode = edit_mode
 		self.site_id = site_id
 		self.current_url = current_url
-		self.new_display_name = None  # Will be set in onSave
+		self.new_display_name = None
 
 		self._initUI()
 		self._bindEvents()
@@ -541,21 +513,18 @@ class AddSiteDialog(wx.Dialog):
 	def _initUI(self):
 		mainSizer = wx.BoxSizer(wx.VERTICAL)
 
-		# Display name
 		nameSizer = wx.BoxSizer(wx.HORIZONTAL)
 		nameSizer.Add(wx.StaticText(self, label=_("Display name:")), 0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 5)
 		self.nameCtrl = wx.TextCtrl(self)
 		nameSizer.Add(self.nameCtrl, 1, wx.EXPAND)
 		mainSizer.Add(nameSizer, 0, wx.EXPAND | wx.ALL, 5)
 
-		# URL
 		urlSizer = wx.BoxSizer(wx.HORIZONTAL)
 		urlSizer.Add(wx.StaticText(self, label=_("URL:")), 0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 5)
 		self.urlCtrl = wx.TextCtrl(self)
 		urlSizer.Add(self.urlCtrl, 1, wx.EXPAND)
 		mainSizer.Add(urlSizer, 0, wx.EXPAND | wx.ALL, 5)
 
-		# Mode (removed Path prefix)
 		modeSizer = wx.BoxSizer(wx.HORIZONTAL)
 		modeSizer.Add(wx.StaticText(self, label=_("Apply to:")), 0, wx.ALIGN_CENTER_VERTICAL | wx.RIGHT, 5)
 		self.modeCombo = wx.ComboBox(
@@ -570,7 +539,6 @@ class AddSiteDialog(wx.Dialog):
 		modeSizer.Add(self.modeCombo, 1, wx.EXPAND)
 		mainSizer.Add(modeSizer, 0, wx.EXPAND | wx.ALL, 5)
 
-		# Buttons
 		btnSizer = wx.BoxSizer(wx.HORIZONTAL)
 		self.saveBtn = wx.Button(self, wx.ID_OK, label=_("&Save"))
 		self.cancelBtn = wx.Button(self, wx.ID_CANCEL, label=_("&Cancel"))
@@ -587,7 +555,7 @@ class AddSiteDialog(wx.Dialog):
 		self.Bind(wx.EVT_CHAR_HOOK, self._onCharHook)
 
 	def _populate_modes(self):
-		self.modeCombo.SetSelection(0)  # default single
+		self.modeCombo.SetSelection(0)
 
 	def _set_defaults(self):
 		if self.current_url:
@@ -604,13 +572,11 @@ class AddSiteDialog(wx.Dialog):
 				self.nameCtrl.SetValue(self.current_url[:30])
 
 	def _load_site_data(self):
-		"""Load site data for edit mode"""
 		site_data = self.config.get_site_by_id(self.site_id)
 		if site_data:
 			self.nameCtrl.SetValue(site_data.get("display_name", ""))
 			self.urlCtrl.SetValue(site_data.get("url", ""))
 			mode = site_data.get("mode", "single")
-			# Map mode to combo index: single->0, whole->1, regex->2
 			if mode == "single":
 				self.modeCombo.SetSelection(0)
 			elif mode == "whole":
@@ -618,11 +584,9 @@ class AddSiteDialog(wx.Dialog):
 			elif mode == "regex":
 				self.modeCombo.SetSelection(2)
 			else:
-				# fallback for old prefix mode - treat as whole
 				self.modeCombo.SetSelection(1)
 
 	def get_new_display_name(self):
-		"""Return the entered name (used after dialog closes)"""
 		return self.new_display_name
 
 	def _onSave(self, evt):
